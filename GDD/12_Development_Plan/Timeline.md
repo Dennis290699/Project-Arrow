@@ -2,6 +2,8 @@
 
 \subsubsection*{Cronograma de seis semanas}
 
+El siguiente cronograma establece la planificación temporal inicial del proyecto \textit{Chronicles of the Cursed Knight}, distribuyendo las actividades de desarrollo en un periodo de seis semanas. Cabe destacar que este cronograma es una propuesta orientativa y podrá ser modificado a futuro según los avances del equipo, imprevistos técnicos o ajustes de alcance que se consideren necesarios durante el proceso de desarrollo.
+
 \begin{center}
 \begin{tabular}{|l|p{10cm}|}
 \hline
@@ -29,4 +31,3 @@ Cada sprint debe finalizar con una versión verificable del proyecto. Se recomie
 \subsubsection*{Control de avance}
 
 El avance debe evaluarse mediante listas de tareas, pruebas jugables internas y revisión semanal del alcance. Si una mecánica amenaza el cumplimiento del cronograma, debe simplificarse antes de comprometer la estabilidad del prototipo.
-
