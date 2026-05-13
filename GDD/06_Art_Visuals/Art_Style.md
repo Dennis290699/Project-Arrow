@@ -66,7 +66,7 @@ Adicionalmente, pueden incorporarse elementos animados en segundo plano, como ll
 
 \subsubsection*{Animaciones}
 
-Las animaciones deben transmitir claridad y personalidad sin perder coherencia con el estilo \textit{pixel art}. Sir. Garet requiere animaciones fluidas para:
+Las animaciones deben transmitir claridad y personalidad sin perder coherencia con el estilo \textit{pixel art}. Chronicles of the Cursed Knight requiere animaciones fluidas para:
 
 \begin{itemize}
     \item Movimiento y desplazamiento.
