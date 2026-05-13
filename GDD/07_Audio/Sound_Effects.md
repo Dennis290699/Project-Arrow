@@ -2,19 +2,83 @@
 
 \subsubsection*{Principios generales}
 
-Los efectos de sonido deben proporcionar retroalimentación inmediata y contribuir a la atmósfera. Cada acción importante del jugador debe tener una respuesta sonora reconocible: pasos, salto, aterrizaje, golpe de espada, impacto contra enemigo, recolección y daño recibido.
+Los efectos de sonido constituyen uno de los elementos fundamentales para reforzar la interacción y la inmersión dentro del videojuego. En el caso del prototipo de \textit{Chronicles of the Cursed Knight}, los efectos deben proporcionar retroalimentación inmediata sobre las acciones del jugador y complementar la atmósfera fantástica y melancólica del entorno.
+
+Cada acción importante realizada por el jugador debe poseer una respuesta sonora clara y fácilmente reconocible. Esto incluye movimientos básicos como caminar, saltar y aterrizar, así como acciones de combate, recolección de objetos y recepción de daño. La correcta implementación de estos sonidos permitirá que el jugador perciba con mayor precisión el impacto de sus acciones dentro del mundo del juego.
+
+Debido a la naturaleza \textit{pixel art} del proyecto, se recomienda utilizar efectos de sonido estilizados que mantengan coherencia con la estética retro del videojuego. Los sonidos no deben ser excesivamente realistas, sino presentar un equilibrio entre simplicidad arcade y ambientación medieval fantástica.
+
+Asimismo, los efectos deben evitar la saturación auditiva. Durante secuencias con múltiples acciones simultáneas, el sistema de audio debe priorizar sonidos relevantes para mantener claridad y evitar fatiga sonora en el jugador.
 
 \subsubsection*{Efectos principales}
 
-\textbf{Pasos.} Deben variar ligeramente en tono mediante código para evitar repetición perceptible. La superficie del nivel puede modificar el timbre en fases posteriores.
+\textbf{Pasos.}  
+Los sonidos de pasos deben acompañar constantemente el desplazamiento del personaje y transmitir sensación de movimiento físico dentro del escenario. Para evitar repetición perceptible, se recomienda utilizar pequeñas variaciones aleatorias de tono y volumen mediante código. En futuras expansiones del proyecto, diferentes superficies del entorno pueden modificar el timbre del sonido, distinguiendo entre piedra, madera, tierra o superficies mágicas.
 
-\textbf{Espada.} Los ataques deben incluir sonidos metálicos, desplazamiento de aire y un impacto diferenciado cuando el golpe conecta con un enemigo.
+Los pasos de Sir. Garet pueden incorporar ligeros sonidos metálicos asociados a su armadura ligera y equipamiento de arquero, reforzando su identidad como caballero élfico.
 
-\textbf{Recolección.} Los Diamantes de Almas deben emitir un sonido agudo y breve, similar a una campana cristalina, para reforzar la satisfacción de obtención.
+\vspace{0.3cm}
 
-\textbf{Daño.} El daño recibido por el jugador debe tener un sonido claro pero no excesivamente intrusivo. Los enemigos pueden utilizar variaciones según tipo o tamaño.
+\textbf{Salto y aterrizaje.}  
+El salto debe incluir un efecto breve y dinámico que refuerce la sensación de impulso y agilidad del personaje. El aterrizaje, por otro lado, debe poseer un sonido ligeramente más pesado que permita al jugador percibir el retorno al suelo y la interacción con la superficie del escenario.
+
+En plataformas elevadas o zonas especiales, el aterrizaje puede incorporar reverberaciones suaves para enfatizar profundidad o altura.
+
+\vspace{0.3cm}
+
+\textbf{Arco y proyectiles.}  
+Debido a que Sir. Garet es un arquero, los ataques a distancia representan uno de los sonidos más importantes del videojuego. Cada disparo debe incluir varias capas de sonido:
+
+\begin{itemize}
+    \item Liberación de la flecha.
+    \item Desplazamiento de aire durante el recorrido.
+    \item Impacto diferenciado según el objetivo alcanzado.
+\end{itemize}
+
+Cuando una flecha impacte contra un enemigo, el sonido debe transmitir contundencia y precisión. En cambio, si golpea paredes u objetos del escenario, el efecto puede presentar resonancias más secas o metálicas dependiendo del material.
+
+\vspace{0.3cm}
+
+\textbf{Combate e impactos.}  
+Los enemigos deben emitir sonidos de impacto, daño y derrota que permitan identificar claramente el resultado de los ataques del jugador. Los enemigos pequeños pueden utilizar sonidos rápidos y agudos, mientras que enemigos de mayor tamaño deben incorporar efectos más graves y pesados para transmitir sensación de amenaza.
+
+Los enfrentamientos importantes o jefes pueden incluir rugidos, sonidos mágicos o efectos especiales asociados a sus habilidades particulares.
+
+\vspace{0.3cm}
+
+\textbf{Recolección de objetos.}  
+Los \textit{Diamantes de Almas} deben emitir un sonido agudo, breve y satisfactorio, similar a una campana cristalina o un eco mágico. Este efecto debe reforzar psicológicamente la recompensa obtenida por el jugador y diferenciar claramente los objetos importantes del resto de elementos interactivos.
+
+Otros objetos coleccionables o mejoras futuras pueden reutilizar variaciones del mismo patrón sonoro para mantener coherencia auditiva dentro del juego.
+
+\vspace{0.3cm}
+
+\textbf{Daño y estado del jugador.}  
+El daño recibido por Sir. Garet debe representarse mediante un sonido claro pero no excesivamente intrusivo. El objetivo es alertar al jugador sin generar molestia auditiva durante combates continuos.
+
+Cuando la salud del personaje sea baja, pueden añadirse efectos ambientales adicionales como latidos suaves, respiración agitada o reducción parcial de ciertos sonidos del entorno para aumentar la tensión y dramatismo.
+
+\subsubsection*{Sonido ambiental}
+
+El entorno debe complementarse mediante sonidos ambientales que fortalezcan la inmersión del jugador dentro de cada zona. Estos sonidos funcionan como capas pasivas que enriquecen la atmósfera sin interferir con la jugabilidad principal.
+
+En los \textit{Jardines Marchitos} pueden utilizarse sonidos de viento, hojas secas y naturaleza deteriorada. Las \textit{Mazmorras del Eco} pueden incorporar gotas de agua, cadenas lejanas y reverberaciones profundas que transmitan aislamiento y misterio. Por su parte, la \textit{Torre del Hechicero} puede incluir energía mágica, vibraciones arcanas y ecos sobrenaturales relacionados con la confrontación final.
+
+La combinación entre música ambiental y efectos del entorno permitirá construir una experiencia auditiva más rica y coherente con la narrativa del videojuego.
 
 \subsubsection*{Implementación técnica}
 
-Los objetos clave deben utilizar componentes \texttt{AudioSource}. La gestión de volumen, mezcla y reproducción puede centralizarse mediante un administrador de audio, permitiendo separar música, efectos y posibles voces.
+Los objetos y personajes clave deben utilizar componentes \texttt{AudioSource} dentro de Unity para gestionar la reproducción de sonidos individuales. La administración global del sistema de audio puede centralizarse mediante un \texttt{AudioManager}, encargado de organizar y controlar todos los elementos sonoros del juego.
 
+Entre las responsabilidades principales del sistema de audio se incluyen:
+
+\begin{itemize}
+    \item Separar canales de música, efectos de sonido y ambiente.
+    \item Controlar niveles de volumen independientes.
+    \item Gestionar reproducción simultánea de múltiples sonidos.
+    \item Implementar variaciones aleatorias de tono y volumen.
+    \item Optimizar recursos reutilizando efectos frecuentes mediante \textit{audio pooling}.
+    \item Facilitar futuras expansiones del prototipo.
+\end{itemize}
+
+Adicionalmente, Unity permite utilizar mezcladores de audio (\texttt{AudioMixer}) para aplicar efectos como reverberación, eco o filtros de frecuencia dependiendo del entorno del nivel. Esto puede contribuir significativamente a mejorar la percepción espacial y la atmósfera general del videojuego.
