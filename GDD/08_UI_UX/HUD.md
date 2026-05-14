@@ -10,7 +10,7 @@ En la esquina superior izquierda se ubica la información vital del jugador. La 
 
 \begin{figure}[hbt!]
     \centering
-    \includegraphics[width=0.4\textwidth]{assets/images/corazones.png} 
+    \includegraphics[width=0.6\textwidth]{assets/images/items.png} 
     \caption{Vista de la interfaz del jugador mostrando salud y diamantes.}
     \label{fig:ui_elementos_principales}
 \end{figure}
@@ -21,7 +21,7 @@ Cuando un enemigo recibe daño, se instancia un prefab de texto en el espacio de
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.2\textwidth]{assets/images/dano.png} 
+    \includegraphics[width=0.6\textwidth]{assets/images/dano1.png} 
     \caption{Ejemplo visual de los textos flotantes al infligir daño a un enemigo.}
     \label{fig:textos_flotantes_dano}
 \end{figure}
@@ -29,4 +29,3 @@ Cuando un enemigo recibe daño, se instancia un prefab de texto en el espacio de
 \subsubsection*{Criterios de claridad}
 
 La interfaz debe ser legible sin ocupar espacio excesivo. Los indicadores deben comunicar información esencial y evitar distracciones durante combate o plataformas. La estética debe integrarse con el tono del juego mediante bordes, iconografía y colores coherentes con la fantasía gótica.
-
