@@ -28,5 +28,9 @@ Al final de una sección relevante, el jugador se enfrenta a un jefe o enemigo d
 
 \subsubsection*{Desbloqueo de nueva área}
 
-Tras superar el desafío principal, el jugador accede a una nueva zona del castillo. Este desbloqueo puede representarse mediante una puerta abierta, una barrera espiritual eliminada, un ascensor activado o un cambio narrativo en el entorno.
+Tras superar el desafío principal, el jugador puede acceder a una nueva zona. Este desbloqueo puede representarse mediante una puerta abierta, una barrera espiritual eliminada, un ascensor activado o un cambio narrativo dentro del entorno que permita continuar la exploración.
+
+Sin embargo, debido a que el prototipo actual se encuentra enfocado únicamente en el desarrollo de un solo nivel jugable correspondiente a los \textit{Jardines Marchitos}, este sistema de desbloqueo funcionará principalmente como una representación narrativa de progresión y como base estructural para futuras expansiones del proyecto.
+
+En integraciones posteriores, el sistema puede ampliarse para conectar múltiples zonas como las \textit{Mazmorras del Eco} o la \textit{Torre del Hechicero}, permitiendo implementar el desbloqueo de nuevas áreas.
 
