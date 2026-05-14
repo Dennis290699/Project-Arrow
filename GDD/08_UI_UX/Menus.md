@@ -6,8 +6,8 @@ El menú principal incluye las opciones \textbf{Jugar}, \textbf{Créditos} y \te
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{assets/images/menu.png} 
-    \caption{Interfaz del menú principal con fondo del castillo.}
+    \includegraphics[width=0.6\textwidth]{assets/images/boceto_menu.png} 
+    \caption{Interfaz del menú principal.}
     \label{fig:menu_principal}
 \end{figure}
 
@@ -17,7 +17,7 @@ La pantalla de \emph{Game Over} se muestra cuando la salud de Gareth llega a cer
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{assets/images/lost.png} 
+    \includegraphics[width=0.6\textwidth]{assets/images/boceto_lost.png} 
     \caption{Pantalla de derrota mostrada al perder toda la salud.}
     \label{fig:pantalla_derrota}
 \end{figure}
@@ -28,8 +28,7 @@ La pantalla de victoria aparece tras derrotar al jefe final del prototipo o libe
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{assets/images/victory.png} 
+    \includegraphics[width=0.6\textwidth]{assets/images/boceto_victory.png} 
     \caption{Pantalla de victoria y cierre del prototipo.}
     \label{fig:pantalla_victoria}
 \end{figure}
-
