@@ -10,7 +10,7 @@ Las variables principales para balancear dificultad son salud del enemigo, daño
 
 \subsubsection*{Escalado por zona}
 
-En los Jardines Marchitos, los enemigos deben tener baja agresividad y patrones simples. En las Mazmorras del Eco, el rango de detección y combinación con trampas incrementan la dificultad. En la Torre del Hechicero, los enemigos y plataformas deben exigir dominio integral de las mecánicas.
+En los Jardines Marchitos, los enemigos deben tener baja agresividad y patrones simples.
 
 \subsubsection*{Evitar frustración}
 

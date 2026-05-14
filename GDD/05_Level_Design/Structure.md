@@ -8,7 +8,7 @@ El juego se organiza en biomas o zonas temáticas conectadas de forma progresiva
 
 Los Jardines Marchitos funcionan como nivel tutorial. Presentan espacios relativamente abiertos, plataformas simples y enemigos básicos. Su objetivo es enseñar movimiento, salto, ataque y recolección sin sobrecargar al jugador.
 
-Los enemigos iniciales pueden incluir esqueletos de baja movilidad y orcos estáticos o de patrulla corta. La arquitectura debe mostrar ruina exterior: árboles secos, estatuas rotas, rejas oxidadas y muros parcialmente destruidos.
+Los enemigos iniciales pueden incluir esqueletos de baja movilidad y arqueros estáticos o vigilantes de patrulla corta. La arquitectura debe mostrar ruina exterior: árboles secos, estatuas rotas, rejas oxidadas y muros parcialmente destruidos.
 
 \subsubsection*{Construcción técnica del entorno}
 
