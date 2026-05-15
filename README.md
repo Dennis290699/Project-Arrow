@@ -1,5 +1,6 @@
 # Chronicles of the Cursed Knight
 
+![alt text](./Screens/cover.jpeg)
 **Grupo 5 - Proyecto de Videojuegos**
 
 ## Integrantes
