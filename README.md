@@ -1,8 +1,12 @@
 # Chronicles of the Cursed Knight
 
-# Integrantes
- - Trujillo Vistin Dennis Adrian
- - Jhon Erick Enriquez Cali
- - Bryan Eduardo Loya Cadena
- - Ninabanda Pambabay Jhonny Eduardo
- 
+**Grupo 5 - Proyecto de Videojuegos**
+
+## Integrantes
+- Trujillo Vistin Dennis Adrian
+- Bryan Eduardo Loya Cadena
+- Jhon Erick Enriquez Cali
+- Ninabanda Pambabay Jhonny Eduardo
+
+## Licencia
+Este proyecto es de código abierto y está licenciado bajo la [Licencia MIT](LICENSE).
