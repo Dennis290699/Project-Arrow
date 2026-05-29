@@ -1,19 +1,34 @@
 \subsection{Riesgos técnicos}
 
-\subsubsection*{Conflictos de fusión en Unity}
+En esta sección se identifican los principales riesgos tecnológicos que pueden afectar el desarrollo del prototipo de \emph{Chronicles of the Cursed Knight}, junto con sus respectivas estrategias de mitigación.
 
-Las escenas \texttt{.unity} y los prefabs pueden ser difíciles de fusionar en Git, especialmente cuando varios integrantes modifican los mismos archivos. Esto puede provocar pérdida de trabajo, conflictos extensos o errores difíciles de rastrear.
+\subsubsection*{Conflictos de fusión (Merge Conflicts) en Unity}
 
-\textbf{Mitigación.} Cada integrante trabajará en escenas de prueba separadas, por ejemplo \texttt{Level\_Denis} o \texttt{Level\_Dev2}. Solo una persona responsable integrará prefabs probados en la escena principal. Además, se recomienda hacer commits pequeños y frecuentes.
+Las escenas (\texttt{.unity}) y los prefabricados (\texttt{.prefab}) de Unity son archivos en formato serializado YAML que resultan extremadamente difíciles de fusionar de forma automática en Git. Si varios integrantes del equipo modifican el mismo archivo simultáneamente, se pueden generar conflictos que causen pérdida de trabajo o corrupción de archivos.
 
-\subsubsection*{Rendimiento}
+\textbf{Mitigación:}
+\begin{itemize}
+    \item Cada integrante del equipo trabajará de forma aislada en escenas de prueba separadas (por ejemplo, \texttt{Level\_Denis}, \texttt{Level\_Dev2}).
+    \item Solo un integrante designado como integrador se encargará de importar y acoplar los prefabs probados en la escena principal del juego (\texttt{SampleScene}).
+    \item Se exigirá realizar commits pequeños, frecuentes y enfocados en un único asset o script.
+\end{itemize}
 
-La instanciación constante de proyectiles, partículas o textos flotantes puede generar caídas de FPS, especialmente durante combates intensos. Este riesgo está documentado en el código observado: uso de \texttt{Instantiate}/\texttt{Destroy} en \texttt{Assets/Scripts/Player.cs} (método \texttt{FireArrow()}) y \texttt{Assets/Scripts/Arrow.cs} (línea \texttt{Destroy(gameObject, 5f)}).
+\subsubsection*{Problemas de rendimiento por instanciación constante}
 
-\textbf{Mitigación.} Si las pruebas evidencian problemas de rendimiento, se reemplazará el uso recurrente de \texttt{Instantiate} y \texttt{Destroy} por un sistema de \emph{Object Pooling}. También se revisará el uso de colliders, partículas y actualizaciones por frame.
+La instanciación y destrucción repetitiva de proyectiles (flechas), efectos de partículas y textos flotantes de daño mediante los métodos \texttt{Instantiate} y \texttt{Destroy} de Unity puede saturar el recolector de basura (Garbage Collector), provocando microcongelamientos o caídas en la tasa de cuadros por segundo (\emph{Framerate Drop}) en equipos de gama media.
 
-\subsubsection*{Integración}
+\textbf{Mitigación:}
+\begin{itemize}
+    \item Si las pruebas iniciales evidencian problemas de rendimiento, se reemplazará la instanciación directa por un sistema de \textbf{Object Pooling} para proyectiles y textos flotantes. Este sistema desactivará y reutilizará objetos existentes en memoria en lugar de eliminarlos.
+    \item Se optimizará el uso de animaciones sencillas mediante la librería LeanTween en lugar de usar controladores de animación basados en Animator clásicos de Unity para elementos decorativos o cíclicos simples.
+\end{itemize}
 
-Los sistemas de movimiento, combate, enemigos, UI y audio pueden funcionar individualmente pero fallar al integrarse. Este riesgo es común en prototipos con varias áreas de trabajo paralelas y se observa en la base de código actual: múltiples scripts independientes (\texttt{Player.cs}, \texttt{Enemy2.cs}, \texttt{AudioManager.cs}, \texttt{GameManager.cs}) que dependen de managers globales y referencias cruzadas.
+\subsubsection*{Fallas en la integración de subsistemas modulares}
 
-\textbf{Mitigación.} Se realizarán integraciones semanales en la rama \texttt{dev}. Cada integración debe probar una escena común con los sistemas principales activos.
+El desarrollo paralelo de los sistemas de movimiento, IA de enemigos, HUD de UI y audio dinámico incrementa el riesgo de fallas de compilación o comportamientos inesperados cuando los scripts se integren en una única rama.
+
+\textbf{Mitigación:}
+\begin{itemize}
+    \item Se implementará una política de integración continua mediante pruebas semanales obligatorias en la rama de desarrollo (\texttt{dev}).
+    \item Toda función global expuesta por los Singleton managers (como el control de puntuación del \texttt{GameManager} o reproducción de sonido en \texttt{AudioManager}) se documentará con firmas claras y comentarios de código.
+\end{itemize}

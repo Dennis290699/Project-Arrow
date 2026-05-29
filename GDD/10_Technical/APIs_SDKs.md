@@ -1,26 +1,43 @@
-\subsection{APIs / SDKs}
+\subsection{APIs y SDKs}
 
-\subsubsection*{Unity 6 LTS}
+El desarrollo del proyecto aprovecha las herramientas integradas en el motor de juego y un conjunto de librerías complementarias estándar para asegurar el rendimiento y el control de versiones:
 
-Unity 6 LTS constituye el motor principal del proyecto. Se utiliza por su soporte para desarrollo 2D, herramientas de física, sistema de animación, manejo de escenas, exportación multiplataforma y flujo de trabajo ampliamente documentado.
+\subsubsection*{Unity Engine (LTS)}
 
-\subsubsection*{Cinemachine}
-
-Cinemachine se emplea para seguimiento suave de cámara, configuración de \emph{Dead Zones}, transiciones y efectos de sacudida mediante Cinemachine Impulse. Su uso permite mejorar la presentación sin construir desde cero un sistema de cámara complejo.
+Se utiliza la versión de largo soporte \textbf{Unity 6 LTS}. El motor provee las APIs nativas esenciales para el juego:
+\begin{itemize}
+    \item \textbf{UnityEngine.Physics2D:} APIs para la manipulación de fuerzas en el Rigidbody2D del jugador, trazado de Raycasts para detectar el suelo e interacciones con triggers mediante \texttt{OnTriggerEnter2D}.
+    \item \textbf{UnityEngine.SceneManagement:} API para gestionar la carga síncrona y asíncrona de niveles y menús.
+    \item \textbf{UnityEngine.UI:} APIs para gestionar eventos de interacción en botones e interactuar con componentes Canvas.
+\end{itemize}
 
 \subsubsection*{TextMeshPro}
 
-TextMeshPro se utiliza para renderizar textos nítidos en interfaz, diálogos, contadores y textos flotantes. Su calidad visual es superior al sistema de texto clásico de Unity y resulta especialmente útil en resoluciones variables.
+Se integra \textbf{TextMeshPro (TMP)} como el estándar para renderizado de textos en pantalla. TMP reemplaza el sistema de texto clásico de Unity, utilizando la técnica \emph{Signed Distance Field (SDF)} para mantener fuentes nítidas y escalables en cualquier resolución de pantalla, siendo clave para el estilo pixel art y la legibilidad de la UI de mejoras y de los textos flotantes de daño.
 
-\subsubsection*{Git y GitHub}
+\subsubsection*{Cinemachine}
 
-El repositorio se aloja en GitHub. Git se utiliza para control de versiones, trazabilidad de cambios, trabajo por ramas e integración del equipo. La estructura de ramas propuesta incluye \texttt{main}, \texttt{dev} y ramas de características como \texttt{feature/combate} o \texttt{feature/ui}.
+Se emplea el paquete \textbf{Cinemachine} de Unity para delegar el comportamiento y seguimiento de la cámara:
+\begin{itemize}
+    \item \textbf{Virtual Camera:} Sigue la posición del transform de Sir Gareth de forma automática.
+    \item \textbf{Framing Transposer:} Configura límites de amortiguación (\emph{Dead Zone} y \emph{Soft Zone}) para suavizar los movimientos de cámara durante saltos rápidos o caídas.
+    \item \textbf{Cinemachine Confiner 2D:} Utiliza un componente \texttt{PolygonCollider2D} en la escena para delimitar los bordes físicos del nivel, evitando que la cámara muestre áreas vacías del fondo parallax.
+\end{itemize}
 
-\subsubsection*{Git LFS}
+\subsubsection*{Git Large File Storage (LFS)}
 
-Git LFS es obligatorio para archivos pesados como \texttt{.png}, \texttt{.wav}, \texttt{.mp3} y \texttt{.psd}. Su uso evita saturar el historial del repositorio y mejora la gestión de recursos binarios.
+El repositorio en GitHub utiliza la extensión \textbf{Git LFS} para gestionar de forma eficiente los archivos binarios de gran tamaño del proyecto, tales como:
+\begin{itemize}
+    \item Hojas de sprites (\emph{Sprite Sheets}) de personajes y enemigos en formato PNG.
+    \item Archivos de sonido de alta definición (\texttt{.wav} y \texttt{.mp3}) para pistas musicales y efectos.
+    \item Prefabs complejos y assets de fuentes tipográficas.
+\end{itemize}
+Git LFS evita la sobrecarga del historial de Git descargando únicamente los punteros de los archivos en lugar de los binarios pesados en cada confirmación de cambio.
 
-\subsection{Middleware}
+\subsubsection*{Middleware de Terceros: LeanTween}
 
-Actualmente, el proyecto no contempla la integración de middleware de terceros complejo (como FMOD para audio o Havok para físicas), todas las funcionalidades centrales se resuelven de forma nativa a través de los sistemas y paquetes de Unity mencionados anteriormente.
-
+Para el suavizado de movimientos e interfaces por código sin coste para la CPU, el proyecto integra el paquete de terceros \textbf{LeanTween}:
+\begin{itemize}
+    \item \textbf{Descripción:} Es una librería de interpolación liviana que calcula transformaciones matemáticas directas sobre variables float y vectores en memoria de forma secuencial.
+    \item \textbf{Uso en el proyecto:} Controla la interpolación de posiciones verticales y opacidades de los paneles de UI de derrota (\texttt{setEaseOutBounce}) y de victoria (\texttt{setEaseInOutBack}), la animación de los textos flotantes de daño y el movimiento cíclico entre nodos de las sierras mecánicas.
+\end{itemize}
