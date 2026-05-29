@@ -37,3 +37,27 @@ La \textit{Torre del Hechicero} debe representar el clímax narrativo del protot
 El motivo musical de Elara puede aparecer en momentos clave como puntos de control, escenas narrativas, descubrimientos importantes o secuencias relacionadas con recuerdos del pasado. La repetición progresiva de este motivo permitirá fortalecer la conexión emocional entre el jugador y la narrativa del juego.
 
 Finalmente, el sistema musical debe estar diseñado considerando futuras expansiones del proyecto, permitiendo añadir nuevos niveles, enemigos y zonas sin romper la coherencia sonora establecida en el prototipo inicial.
+
+\subsubsection*{Diseño Detallado de la Banda Sonora (Prototipo)}
+
+La siguiente tabla resume los temas musicales planificados para el prototipo, su instrumentación y la atmósfera que buscan establecer en el jugador:
+
+\begin{center}
+\begin{tabular}{|p{3cm}|p{4.5cm}|p{6.7cm}|}
+\hline
+\textbf{Tema Musical} & \textbf{Instrumentación Principal} & \textbf{Atmósfera y Propósito Narrativo} \\
+\hline
+Menú Principal & Chelo solo, arpa y pad de sintetizador. & Nostalgia y misterio; introduce el declive del reino de Valtheria. \\
+\hline
+Jardines Marchitos & Flauta traversa, guitarra acústica y violín suave. & Melancolía y exploración solitaria; refleja la naturaleza muerta y la soledad del héroe. \\
+\hline
+Mazmorras del Eco & Pads de bajo profundo, piano disonante y platillos metálicos lejanos. & Tensión, claustrofobia e incertidumbre; el sonido de eco resalta el peligro del subsuelo. \\
+\hline
+Torre Marchita & Órgano de tubos, percusiones orquestales y coros sintéticos. & Clímax, urgencia y confrontación épica contra el Hechicero Lord Malakor. \\
+\hline
+Encuentros de Combate & Cuerdas en staccato, timbales pesados y vientos de madera rápidos. & Adrenalina y peligro inmediato; se activa al iniciar combates contra grupos de enemigos. \\
+\hline
+Eco de Elara (Checkpoints) & Caja de música, arpa celestial y soprano lírica etérea. & Paz, seguridad y esperanza temporal; reconforta al jugador en los puntos de descanso. \\
+\hline
+\end{tabular}
+\end{center}

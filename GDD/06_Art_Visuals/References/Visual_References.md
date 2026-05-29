@@ -28,7 +28,7 @@ Asimismo, \textit{Hollow Knight} demuestra cómo mantener una atmósfera inmersi
 \textbf{Videojuegos clásicos de LEGO desarrollados por TT Games}  
 Los videojuegos clásicos de LEGO desarrollados por TT Games constituyen una referencia importante para el sistema de comunicación narrativa sin actuación de voz completa. Estos juegos lograban transmitir personalidad, humor y emociones mediante animaciones exageradas, expresiones visuales y pequeños sonidos abstractos en lugar de diálogos hablados.
 
-Esta referencia resulta especialmente relevante para \textit{Sir. Garet}, ya que el proyecto busca implementar narrativa basada principalmente en:
+Esta referencia resulta especialmente relevante para \textit{Sir Gareth}, ya que el proyecto busca implementar narrativa basada principalmente en:
 
 \begin{itemize}
     \item Cuadros de diálogo con texto en pantalla.
@@ -57,7 +57,7 @@ El análisis de estas obras permite comprender soluciones modernas aplicadas a v
 
 \subsubsection*{Referencias para diálogos sin voces}
 
-Debido a que \textit{Sir. Garet} no contará con actuación de voz, parte importante del análisis se enfoca en videojuegos que logran construir narrativa efectiva mediante texto y expresiones visuales.
+Debido a que \textit{Sir Gareth} no contará con actuación de voz, parte importante del análisis se enfoca en videojuegos que logran construir narrativa efectiva mediante texto y expresiones visuales.
 
 Los principales aspectos estudiados incluyen:
 

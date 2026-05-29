@@ -8,7 +8,18 @@ El apartado visual debe mantener equilibrio entre atractivo artístico y clarida
 
 La paleta de colores debe variar según la zona del nivel, utilizando tonos fríos y apagados para áreas abandonadas o peligrosas, mientras que elementos mágicos, objetos importantes y efectos especiales pueden incorporar colores brillantes o contrastantes para captar atención inmediata.
 
-El personaje principal, Sir. Garet, debe poseer un diseño reconocible incluso a distancia, utilizando una silueta clara, capa distinguible y elementos visuales asociados a un caballero arquero élfico. Los enemigos y objetos interactivos deben diferenciarse fácilmente tanto por color como por forma para favorecer la identificación rápida durante la jugabilidad.
+El personaje principal, Sir Gareth, debe poseer un diseño reconocible incluso a distancia, utilizando una silueta clara, capa distinguible y elementos visuales asociados a un caballero arquero élfico. Los enemigos y objetos interactivos deben diferenciarse fácilmente tanto por color como por forma para favorecer la identificación rápida durante la jugabilidad.
+
+\subsubsection*{Concept Art e Ilustraciones de Referencia}
+
+El proyecto cuenta con ilustraciones conceptuales desarrolladas para guiar el estilo de los personajes y escenarios. Estos materiales gráficos se encuentran integrados en el \textbf{Anexo B: Concept Art e Ilustraciones} de este documento y sirven como base para la producción artística:
+
+\begin{itemize}
+    \item \textbf{Diseño de Sir Gareth:} Se dispone de tres versiones conceptuales en el Anexo B que muestran la evolución de la armadura ligera de la Orden y el brillo necrótico característico de la maldición del personaje (ver Figuras de Diseño de Sir Gareth).
+    \item \textbf{Elara:} El diseño de la Gran Sacerdotisa resalta sus vestiduras ceremoniales blancas y doradas, contrastando con el fondo oscuro y sirviendo de referencia para su proyección etérea.
+    \item \textbf{El Archimago Malakor:} La ilustración conceptual detalla los ropajes oscuros y el báculo imbuido de ceniza del antagonista principal.
+    \item \textbf{Escenarios y Enemigos:} El diseño de las criaturas hostiles y las composiciones de los niveles definen el gálibo visual y el estilo de degradación cromática de los entornos.
+\end{itemize}
 
 \subsubsection*{Inspiración visual y referencias}
 
