@@ -1,36 +1,27 @@
 \subsection{Loop de juego}
 
-El bucle central de \emph{Chronicles of the Cursed Knight} se estructura de la siguiente forma:
+El bucle de juego central de \emph{Chronicles of the Cursed Knight} se estructura bajo una dinámica de riesgo y recompensa continua:
 
 \[
-\text{Exploración} \rightarrow \text{Combate y evasión} \rightarrow \text{Recolección} \rightarrow \text{Mejoras} \rightarrow \text{Jefe} \rightarrow \text{Nueva área}
+\text{Exploración} \rightarrow \text{Combate y evasión de trampas} \rightarrow \text{Recolección de diamantes} \rightarrow \text{Mejora en Checkpoint} \rightarrow \text{Extracción}
 \]
 
-\subsubsection*{Exploración del entorno}
+\subsubsection*{1. Exploración del entorno}
 
-El jugador avanza por escenarios interconectados, observa patrones de plataformas, identifica rutas principales y descubre caminos secundarios. La exploración debe recompensarse mediante recursos, fragmentos narrativos, atajos o ventajas tácticas.
+El jugador avanza de forma lateral a través del nivel modular de los \textit{Jardines Marchitos}. La exploración es bidimensional, guiada por plataformas suspendidas, bifurcaciones de caminos y pasillos estrechos en ruinas. El diseño del entorno incita al jugador a identificar rutas seguras y zonas secretas que albergan cofres de almas o contenedores de corazones ocultos.
 
-\subsubsection*{Combate y evasión de trampas}
+\subsubsection*{2. Combate y evasión de peligros}
 
-Durante la exploración, el jugador enfrenta enemigos con distintos comportamientos y evita peligros ambientales como pinchos, abismos y plataformas móviles. El juego debe alternar momentos de lectura espacial con encuentros de acción para mantener ritmo y variedad.
+A lo largo del recorrido, Sir Gareth se enfrenta a tres arquetipos de enemigos (ninjas, arqueros y esqueletos) que bloquean los accesos. El combate es exclusivamente a distancia usando el arco, lo que requiere calcular parábolas de salto, mantener distancias seguras y usar el Dash para evadir ataques rápidos. Asimismo, se deben esquivar peligros estáticos como pinchos y sierras mecánicas móviles.
 
-\subsubsection*{Recolección de botín}
+\subsubsection*{3. Recolección de almas}
 
-La derrota de enemigos y el descubrimiento de zonas ocultas permiten obtener Diamantes de Almas. Este botín cumple una doble función: recompensa inmediata y recurso de planificación para mejoras futuras.
+Al eliminar enemigos y abrir cofres distribuidos en el escenario, el jugador recolecta \textbf{Diamantes de Almas}. Los diamantes actúan como la recompensa inmediata y el recurso de retención del juego. El jugador debe decidir si avanza agresivamente o si se detiene a limpiar áreas para maximizar sus ingresos de almas.
 
-\subsubsection*{Inversión en mejoras}
+\subsubsection*{4. Inversión en mejoras (Eco de Elara)}
 
-En checkpoints o estatuas vinculadas al Eco de Elara, el jugador puede invertir los recursos recolectados. Esta decisión conecta exploración, riesgo y progresión. El sistema debe comunicar con claridad el costo de cada mejora y su beneficio.
+Al interactuar con la estatua espiritual de Elara, que actúa como punto de guardado y zona de descanso, el jugador accede a un menú de mejoras. Aquí puede gastar los diamantes acumulados para aumentar su salud máxima o el daño de sus flechas. Esta mejora permanente reduce la dificultad de los combates posteriores y prepara al jugador para el clímax del nivel.
 
-\subsubsection*{Enfrentamiento con jefe}
+\subsubsection*{5. Extracción (Condición de victoria)}
 
-Al final de una sección relevante, el jugador se enfrenta a un jefe o enemigo destacado. Estos encuentros evalúan las habilidades aprendidas durante el recorrido y funcionan como cierre mecánico y narrativo del área.
-
-\subsubsection*{Desbloqueo de nueva área}
-
-Tras superar el desafío principal, el jugador puede acceder a una nueva zona. Este desbloqueo puede representarse mediante una puerta abierta, una barrera espiritual eliminada, un ascensor activado o un cambio narrativo dentro del entorno que permita continuar la exploración.
-
-Sin embargo, debido a que el prototipo actual se encuentra enfocado únicamente en el desarrollo de un solo nivel jugable correspondiente a los \textit{Jardines Marchitos}, este sistema de desbloqueo funcionará principalmente como una representación narrativa de progresión y como base estructural para futuras expansiones del proyecto.
-
-En integraciones posteriores, el sistema puede ampliarse para conectar múltiples zonas como las \textit{Mazmorras del Eco} o la \textit{Torre del Hechicero}, permitiendo implementar el desbloqueo de nuevas áreas.
-
+El ciclo del nivel concluye cuando el jugador atraviesa todos los obstáculos de los Jardines Marchitos y alcanza los portones principales del castillo, activando la escena de victoria y completando el corte vertical jugable.

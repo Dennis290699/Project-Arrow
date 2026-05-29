@@ -1,29 +1,20 @@
 \subsection{Sinopsis}
 
-\textit{Chronicles of the Cursed Knight} es un videojuego de aventura, acción y plataformas con enfoque visual \textbf{2.5D}, ambientado en un reino medieval fantástico consumido lentamente por una antigua corrupción mágica.
+\emph{Chronicles of the Cursed Knight} narra una historia de culpa, maldición y redención ambientada en las ruinas góticas del reino de \textbf{Valtheria}. Durante generaciones, el reino prosperó gracias al equilibrio sagrado provisto por el \textit{Corazón del Bosque}, una reliquia custodiada por la antigua Orden de los Guardianes en el bosque ancestral de \textbf{Eldergrove}.
 
-Durante siglos, el reino de \textbf{Valtheria} prosperó gracias al equilibrio mantenido por el \textit{Corazón del Bosque}, una reliquia ancestral conectada directamente con Eldergrove, un bosque sagrado considerado fuente de vida y protección para todo el reino. Los guardianes de Eldergrove vigilaban los caminos, templos y estructuras ocultas del bosque para evitar que las fuerzas oscuras despertaran nuevamente.
+Sin embargo, la paz fue destruida durante \textit{La Noche de la Ceniza}, un cataclismo mágico donde una corrupción oscura brotó de las profundidades del reino. \textbf{Sir Gareth}, uno de los guardianes arqueros más prominentes de la Orden, fracasó en su deber de proteger la reliquia. Su error permitió que el Corazón del Bosque fuera destrozado y esparcido por el reino. Como consecuencia de su fracaso y de la energía corruptora liberada, Gareth recibió una maldición gótica de semi-inmortalidad y deterioro físico, convirtiéndose en el \textit{Caballero Maldito}.
 
-Sin embargo, tras un evento catastrófico conocido como \textit{La Noche de la Ceniza}, una energía corrupta comenzó a expandirse desde las profundidades del bosque. La vegetación empezó a marchitarse, múltiples caminos quedaron abandonados y antiguas criaturas fueron transformadas en seres hostiles dominados por la oscuridad.
+En la actualidad, Valtheria se encuentra en completa decadencia, con sus bosques marchitos y sus antiguos habitantes transformados en no muertos dominados por la corrupción. Consumido por la culpa, Sir Gareth vaga por las ruinas de lo que fue su hogar. Su único destello de esperanza surge cuando el \textbf{Eco de Elara} ---la manifestación espiritual de una misteriosa aliada del pasado vinculada al cataclismo--- se manifiesta en el mundo físico.
 
-A medida que la corrupción avanzaba hacia las aldeas cercanas, exploradores, soldados y viajeros comenzaron a desaparecer misteriosamente dentro de Eldergrove. El reino perdió contacto con gran parte de sus guardianes y numerosos territorios quedaron completamente aislados.
+Guiado por el Eco de Elara, Gareth emprende un viaje para recolectar los fragmentos del Corazón del Bosque y purificar la tierra, siendo esta búsqueda su única vía para romper su propia maldición y redimir sus errores del pasado. El prototipo jugable sitúa al jugador en los \textbf{Jardines Marchitos}, la zona de entrada al gran castillo en ruinas y el primer paso del caballero en su camino de penitencia.
 
-Ante la amenaza creciente, el Consejo Real decide enviar a \textbf{Sir Gareth}, uno de los últimos caballeros arqueros de Valtheria, reconocido por su precisión en combate, agilidad y experiencia explorando territorios prohibidos.
+\subsubsection*{Arco Narrativo del Videojuego}
 
-La misión de Sir Gareth consiste en adentrarse en Eldergrove, descubrir el origen de la corrupción y recuperar los fragmentos perdidos del \textit{Corazón del Bosque} antes de que el reino colapse completamente.
+El desarrollo narrativo de la historia se divide en cuatro fases dramáticas bien definidas:
 
-Durante su travesía, Gareth descubrirá restos del antiguo reino, caminos olvidados, estructuras deterioradas y fragmentos de memoria relacionados con \textbf{Elara}, una figura misteriosa vinculada directamente con el origen de la maldición y los eventos ocurridos durante \textit{La Noche de la Ceniza}.
-
-A lo largo del videojuego, el jugador recorrerá escenarios llenos de plataformas dinámicas, puentes colgantes, cuevas subterráneas y bosques encantados mientras enfrenta guardianes corrompidos, ninjas de la sombra, esqueletos reanimados y múltiples trampas mágicas aún activas dentro del reino.
-
-El sistema jugable combina exploración, combate con arco y desafíos de plataformas donde el jugador deberá superar cuchillas móviles, explosiones de fuego, estructuras inestables y zonas de difícil acceso que pondrán a prueba la precisión, velocidad y reflejos del jugador.
-
-Dentro del prototipo académico se desarrollará principalmente la primera gran región jugable denominada \textbf{Jardines Marchitos}, una zona diseñada para introducir las mecánicas principales del videojuego, incluyendo movimiento, combate a distancia, plataformas y exploración ambiental.
-
-Narrativamente, los Jardines Marchitos representan el abandono progresivo del reino y funcionan como la primera aproximación al tono melancólico y misterioso de la obra.
-
-La estructura general del proyecto contempla futuras expansiones que incorporen nuevas regiones como las \textit{Mazmorras del Eco} y la \textit{Torre del Hechicero}, aumentando progresivamente la complejidad narrativa y jugable mediante nuevos enemigos, obstáculos y eventos importantes relacionados con el origen de la corrupción.
-
-Visualmente, \textit{Chronicles of the Cursed Knight} combina gráficos \textit{Pixel Art} con composición de escenarios \textbf{2.5D}, utilizando fondos multicapa, efectos de profundidad y sistemas de \textit{parallax scrolling} para generar sensación de inmersión y escala dentro del mundo fantástico de Valtheria.
-
-La propuesta narrativa busca transmitir aventura, decadencia, exploración y misterio mediante narrativa ambiental, progresión del personaje y construcción visual del entorno, inspirándose en videojuegos clásicos de plataformas y acción con estética fantástica oscura.
+\begin{itemize}
+    \item \textbf{Introducción (El Despertar del Guerrero):} Sir Gareth despierta en los límites de Eldergrove rodeado de cenizas y muerte. El espíritu de Elara se le manifiesta para revelarle que la corrupción del reino puede revertirse si reúne los fragmentos dispersos del Corazón del Bosque. Gareth, atormentado por su culpa, acepta la misión como su única oportunidad de perdón.
+    \item \textbf{Nudo (La Marcha de la Penitencia):} Gareth recorre los \textit{Jardines Marchitos} combatiendo a las almas corrompidas de sus antiguos soldados (espectros y ninjas). A través del Eco de Elara en las estatuas, descubre fragmentos de recuerdos que revelan que él fue engañado por promesas de poder del Hechicero Malakor, lo que facilitó la destrucción del templo. Posteriormente, desciende a las \textit{Mazmorras del Eco} para purificar las prisiones subterráneas del reino.
+    \item \textbf{Clímax (El Enfrentamiento en la Torre):} Gareth asciende a la \textit{Torre Marchita}, el epicentro de la corrupción. Allí confronta a Lord Malakor en una batalla final que pone a prueba su maestría con el arco y sus reflejos para esquivar proyectiles de ceniza. Derrota al hechicero y libera la última energía de corrupción.
+    \item \textbf{Desenlace (El Renacer de Eldergrove):} Con los fragmentos reunidos, Gareth reconstruye el Corazón del Bosque en el altar central. La luz purificadora se esparce por Valtheria, disolviendo la ceniza y devolviendo la vida al bosque. El espíritu de Elara finalmente descansa en paz, otorgando el perdón a Gareth, cuya maldición es levantada, permitiéndole vivir sus últimos días en un reino renacido.
+\end{itemize}

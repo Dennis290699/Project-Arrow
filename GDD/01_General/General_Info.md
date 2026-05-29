@@ -1,6 +1,6 @@
 \textbf{Nombre del juego:} \emph{Chronicles of the Cursed Knight} (\emph{Crónicas del Caballero Maldito}).
 
-\textbf{Género:} Plataformas en dos dimensiones, acción \emph{hack and slash} y aventura narrativa.
+\textbf{Género:} Plataformas de acción 2D, aventura de acción y exploración con ambientación 2.5D.
 
 \textbf{Plataforma(s):} PC, con soporte previsto para Windows.
 
@@ -14,6 +14,6 @@
 
 \subsection*{Visión general y Objetivo académico (Información adicional)}
 
-\emph{Chronicles of the Cursed Knight} propone una experiencia de acción y plataformas centrada en la precisión del movimiento, el combate directo y la exploración de un reino fantástico. El jugador encarna a Sir Gareth, un antiguo caballero elfo condenado por los errores de su pasado. La estructura del juego combina progresión mecánica, descubrimiento narrativo y enfrentamientos contra enemigos corruptos por fuerzas sobrenaturales.
+\emph{Chronicles of the Cursed Knight} propone una experiencia de acción, plataformas y exploración centrada en la precisión del movimiento, la evasión ágil y el combate a distancia mediante arco y flechas. El jugador encarna a Sir Gareth, un antiguo elfo caballero de la Orden de los Guardianes, maldito y condenado a vagar por las ruinas de su antiguo hogar debido a sus fallos en el pasado durante la catástrofe de la Noche de la Ceniza. La estructura del juego combina progresión mecánica, descubrimiento narrativo y enfrentamientos contra enemigos corruptos por fuerzas sobrenaturales en una atmósfera melancólica.
 
 El proyecto busca demostrar competencias integradas en diseño de videojuegos, programación orientada a objetos, uso de herramientas de producción en Unity, control de versiones con Git y documentación técnica formal. Asimismo, se plantea como una pieza de portafolio capaz de evidenciar procesos de planificación, prototipado, implementación y evaluación de una experiencia interactiva completa.

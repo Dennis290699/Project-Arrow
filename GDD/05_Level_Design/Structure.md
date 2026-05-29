@@ -2,44 +2,48 @@
 
 \subsubsection*{Organización general}
 
-La estructura del videojuego se organiza en distintas zonas temáticas conectadas de forma progresiva, donde cada sección introduce nuevos desafíos, enemigos, elementos narrativos y variaciones ambientales que enriquecen la experiencia del jugador. Cada nivel busca reforzar mecánicas previamente aprendidas mientras incrementa gradualmente la dificultad y profundiza en la historia de la caída del reino.
+La estructura del videojuego se organiza en zonas temáticas conectadas de forma lineal y progresiva. Cada sección introduce variaciones ambientales, nuevos obstáculos y un incremento de dificultad coherente con la progresión del personaje. Para el alcance del prototipo actual, los esfuerzos de desarrollo e integración se concentran en la primera área jugable completa.
 
-Aunque el prototipo desarrollado en esta etapa incluirá únicamente una zona jugable completa, la arquitectura general del proyecto se encuentra diseñada considerando futuras expansiones que permitan incorporar nuevas áreas sin modificar la base estructural del videojuego.
+\subsubsection*{Escala y Sistema de Cuadrícula (Grid System)}
 
-Cada zona posee además una identidad visual y sonora propia, apoyándose en el sistema musical y ambiental para reforzar emocionalmente la exploración y la narrativa del juego.
+Para garantizar un diseño de niveles coherente, un ritmo de juego justo y evitar problemas de colisiones o bloqueos del jugador (\emph{softlocks}), todo el entorno de los niveles se rige bajo una estricta normativa matemática de espacios:
+\begin{itemize}
+    \item \textbf{Grid de Unity:} El mapeado se construye sobre un componente \texttt{Grid} predeterminado con celdas de $1 \times 1$ unidades de Unity.
+    \item \textbf{Proporción de Assets (Pixels Per Unit - PPU):} Tanto los sprites del entorno (\textit{Tilesets} de suelo, plataformas y ruinas) como los de los personajes se configuran en el motor con un PPU estandarizado. Esto asegura que encajen perfectamente en la cuadrícula y que las colisiones mediante \texttt{TilemapCollider2D} y \texttt{CompositeCollider2D} se calculen de forma limpia y predecible.
+\end{itemize}
 
-\vspace{0.3cm}
+\subsubsection*{Métricas Espaciales de Diseño (Level Design Metrics)}
 
-\subsubsection*{Jardines Marchitos}
+Las capacidades físicas programadas en el script del jugador (\texttt{PlayerController.cs}) definen las reglas absolutas para la construcción topográfica de los escenarios:
+\begin{itemize}
+    \item \textbf{Salto Vertical Máximo (Max Vertical Jump):} $4.5$ unidades de Unity.
+    \begin{itemize}
+        \item \emph{Regla de Diseño:} Ninguna plataforma crítica necesaria para avanzar en el nivel puede situarse a una altura superior a $4.0$ unidades respecto al suelo de despegue. Las plataformas colocadas a $4.5$ unidades requieren una ejecución de salto perfecta (o el uso del doble salto) y se reservan exclusivamente para zonas de botín y secretos.
+    \end{itemize}
+    \item \textbf{Salto Horizontal Máximo (Max Horizontal Jump):} $6.0$ unidades de Unity (asumiendo velocidad máxima y salto en el borde).
+    \begin{itemize}
+        \item \emph{Regla de Diseño:} La distancia máxima permitida para fosos con pinchos, abismos o caídas mortales transitables no debe superar las $5.5$ unidades de ancho. Distancias mayores requieren colocar una plataforma flotante intermedia obligatoria.
+    \end{itemize}
+    \item \textbf{Gálibo y Diseño de Pasillos (Clearance Height):} El volumen de colisión (\texttt{BoxCollider2D}) de Sir Gareth y de los enemigos pesados (Esqueletos) ocupa entre $1.5$ y $2.0$ unidades de altura física.
+    \begin{itemize}
+        \item \emph{Regla de Diseño:} Los pasillos cerrados, túneles bajo tierra o pasajes con techo deben poseer una altura libre mínima de $3.0$ unidades. Esto garantiza que el jugador tenga espacio suficiente para realizar pequeños saltos, evadir flechas y ejecutar un Dash sin colisionar bruscamente la cabeza contra el techo.
+    \end{itemize}
+\end{itemize}
 
-Los \textit{Jardines Marchitos} constituyen la primera zona jugable y funcionan como nivel introductorio del prototipo. Presentan espacios relativamente abiertos, plataformas simples y enemigos básicos que permiten enseñar progresivamente las mecánicas principales del videojuego, incluyendo movimiento, salto, combate a distancia, exploración y recolección de objetos.
+\subsubsection*{Zonas de los Jardines Marchitos}
 
-El diseño del escenario debe favorecer el aprendizaje natural mediante una distribución clara de plataformas, obstáculos y rutas opcionales. El jugador debe familiarizarse con la movilidad de Sir. Garet sin enfrentar una dificultad excesiva durante los primeros minutos de juego.
-
-Los enemigos iniciales incluyen el \textit{Arquero Corrompido}, el \textit{Ninja de la Sombra} y el \textit{Esqueleto Reanimado}. Cada uno introduce patrones básicos de combate y movimiento que ayudan al jugador a comprender las mecánicas defensivas y ofensivas del videojuego.
-
-Visualmente, la zona debe transmitir decadencia y abandono mediante árboles secos, vegetación marchita, estatuas destruidas, rejas oxidadas y estructuras parcialmente derrumbadas.
-
-\vspace{0.3cm}
-
-\textbf{Mazmorras del Eco.}  
-Planeadas para futuras integraciones del proyecto, las \textit{Mazmorras del Eco} representarían una transición hacia una experiencia más oscura y desafiante. Esta zona puede incorporar espacios cerrados, plataformas más peligrosas, trampas ambientales y enemigos con comportamientos más agresivos.
-
-La estructura del nivel puede centrarse en recorridos verticales, pasillos estrechos y áreas ocultas que incentiven la exploración cuidadosa del entorno. La atmósfera debe enfatizar encierro, tensión y peligro constante.
-
-\vspace{0.3cm}
-
-\textbf{Torre del Hechicero.}  
-La \textit{Torre del Hechicero} corresponde al posible clímax del videojuego en futuras versiones completas del proyecto. Su diseño puede orientarse hacia una progresión más lineal y desafiante, incorporando enemigos avanzados, plataformas complejas y eventos narrativos importantes relacionados con el enfrentamiento final.
-
-Visualmente, esta sección debe transmitir corrupción mágica y peligro mediante estructuras imponentes, iluminación sobrenatural y elementos arcanos presentes en el entorno.
+Los \textit{Jardines Marchitos} actúan como el nivel introductorio del prototipo:
+\begin{itemize}
+    \item \textbf{Estructura:} Espacios abiertos al aire libre combinados con pequeñas ruinas de piedra. En los primeros minutos, el jugador aprende a moverse horizontalmente y a saltar pequeños desniveles de $2$ unidades de alto sin enemigos.
+    \item \textbf{Distribución de Amenazas:} Introduce de forma aislada al \textit{Esqueleto Reanimado} en plataformas largas, al \textit{Arquero Corrompido} en elevaciones para retar el salto y al \textit{Ninja de la Sombra} en zonas angostas.
+    \item \textbf{Objetivo Jugable:} Atravesar el nivel esquivando pinchos y sierras móviles, activar el Eco de Elara (checkpoint) para mejorar estadísticas y llegar a los portones del castillo.
+\end{itemize}
 
 \subsubsection*{Construcción técnica del entorno}
 
-El escenario se desarrolla utilizando una estructura modular basada en cuadrículas, permitiendo organizar plataformas, obstáculos y superficies de manera uniforme y reutilizable. Este enfoque facilita la creación de niveles consistentes, mejora la organización visual del entorno y permite expandir el videojuego con nuevas zonas de forma más eficiente.
-
-La construcción modular también favorece futuras ampliaciones del proyecto, permitiendo añadir biomas, rutas alternativas y nuevos segmentos narrativos sin alterar la lógica principal de diseño del escenario.
-
-Para optimizar el rendimiento, las superficies sólidas pueden agruparse mediante colisiones unificadas, reduciendo cálculos físicos innecesarios y mejorando la estabilidad del sistema durante la ejecución del videojuego.
-
-Adicionalmente, la estructura técnica del entorno debe permitir integrar elementos interactivos como puntos de control, plataformas móviles, trampas, eventos activados por exploración, facilitando la evolución progresiva del diseño de niveles en futuras versiones del proyecto.
+Los escenarios se construyen utilizando paletas de baldosas (\textit{Tilemaps}) en Unity, divididas en capas lógicas:
+\begin{itemize}
+    \item \textbf{Tilemap Ground:} Terreno sólido con el componente \texttt{TilemapCollider2D} y \texttt{CompositeCollider2D} configurado en modo \texttt{Polygonal} para unificar las colisiones y optimizar el rendimiento.
+    \item \textbf{Tilemap Background:} Elementos visuales del fondo sin colisión (capa parallax intermedia).
+    \item \textbf{Tilemap Decoration:} Detalles como antorchas, estatuas y vegetación marchita sin colisiones.
+\end{itemize}

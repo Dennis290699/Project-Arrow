@@ -1,38 +1,33 @@
 \subsection{Controles}
 
-\subsubsection*{Esquema de controles en PC}
+\subsubsection*{Esquema de controles en PC (Teclado y Ratón)}
+
+Para esta versión del proyecto, el juego se controla exclusivamente mediante periféricos de PC, utilizando una distribución simplificada e intuitiva para juegos de plataformas de acción:
 
 \begin{center}
-\begin{tabular}{|l|l|}
+\begin{longtable}{|p{4cm}|p{8cm}|}
 \hline
-\textbf{Enter} & \textbf{Acción asociada} \\
+\textbf{Tecla / Entrada} & \textbf{Acción Asociada en el Juego} \\
 \hline
-\texttt{A} & Desplazamiento hacia la izquierda \\
+\texttt{W} & Desplazamiento hacia la izquierda \\
 \hline
 \texttt{D} & Desplazamiento hacia la derecha \\
 \hline
-Flecha izquierda & Movimiento alternativo hacia la izquierda \\
+\texttt{Espacio} (Barra) & Salto / Doble Salto (al presionarse en el aire) \\
 \hline
-Flecha derecha & Movimiento alternativo hacia la derecha \\
+\textbf{Clic Izquierdo} (Mouse 0) & Ataque de arco (lanzamiento de flecha física) \\
 \hline
-\texttt{Espacio} & Ejecución de salto \\
+\textbf{Clic Derecho} (Mouse 1) & Mecánica de evasión (Dash) \\
 \hline
-Clic derecho & Lanzamiento de proyectil \\
+\texttt{Esc} & Activación / Desactivación del menú de pausa \\
 \hline
-\texttt{Esc} & Activación del menú de pausa \\
-\hline
-\end{tabular}
+\end{longtable}
 \end{center}
 
 \subsubsection*{Criterios de usabilidad}
 
-La distribución de controles debe resultar intuitiva y fácil de aprender para usuarios acostumbrados a videojuegos de plataformas en computadora. Asimismo, el sistema debe permitir la combinación de acciones simultáneas, como desplazarse mientras se salta o atacar durante el movimiento, garantizando una experiencia fluida y dinámica.
+La distribución de los controles está diseñada para que el jugador pueda maniobrar ágilmente con una mano en el teclado (\texttt{W}, \texttt{D} y \texttt{Espacio}) y otra en el ratón (apuntando con la mirada física del sprite y controlando los disparos y esquives con los clics). El sistema permite la introducción simultánea de comandos, de modo que el jugador puede disparar flechas en pleno salto o ejecutar un Dash horizontal mientras cae.
 
 \subsubsection*{Principios de respuesta}
 
-Las acciones ejecutadas por el jugador deben reflejarse de manera inmediata en el comportamiento del personaje. Cada comando introducido tiene que producir una reacción coherente y perceptible, excepto en situaciones donde existan limitaciones propias de la mecánica del juego, como periodos de recuperación tras un ataque o la ausencia de recursos necesarios para utilizar habilidades.
-
-\subsubsection*{Accesibilidad inicial}
-
-En una primera versión del prototipo pueden emplearse configuraciones de control predeterminadas. Sin embargo, en futuras iteraciones se recomienda incorporar opciones de personalización, incluyendo reasignación de teclas, compatibilidad con controles externos y ajustes independientes para música y efectos de sonido.
-
+Los comandos se leen a través del sistema de entradas en los ciclos \texttt{Update()} para detectar pulsaciones de botones instantáneas y se ejecutan en \texttt{FixedUpdate()} para aplicar fuerzas físicas consistentes al personaje. No se introduce retraso artificial (\emph{input lag}) en el movimiento, permitiendo que la esquiva con el Dash y los saltos se perciban inmediatos y responsivos.

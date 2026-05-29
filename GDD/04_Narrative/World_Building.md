@@ -1,93 +1,35 @@
 \subsection{Construcción del Mundo}
 
-El mundo de \textit{Chronicles of the Cursed Knight} se desarrolla en el reino ficticio de \textbf{Valtheria}, una antigua civilización medieval rodeada por el bosque mágico de \textbf{Eldergrove}, un territorio sagrado conectado directamente con la energía del \textit{Corazón del Bosque}.
+El mundo de \emph{Chronicles of the Cursed Knight} se sitúa en las ruinas góticas del reino de \textbf{Valtheria} y el bosque marchito de \textbf{Eldergrove}. Tras la catástrofe de la Noche de la Ceniza, la geografía del reino refleja una naturaleza corrompida por fuerzas oscuras y la decadencia de una civilización medieval que una vez fue gloriosa.
 
-Durante generaciones, Eldergrove funcionó como fuente de vida, equilibrio y protección para todo el reino. Sus árboles gigantescos, caminos elevados y templos ocultos eran considerados lugares sagrados vigilados por guardianes y guerreros élite encargados de mantener alejadas las fuerzas oscuras.
+\subsubsection*{Estructura de capas Parallax 2.5D}
 
-Sin embargo, tras la aparición de una misteriosa corrupción, el bosque comenzó a transformarse lentamente. La vegetación perdió vida, múltiples caminos quedaron abandonados y numerosas criaturas fueron consumidas por una energía oscura que alteró completamente el equilibrio natural de Valtheria.
-
-Como consecuencia, los senderos dejaron de ser seguros y gran parte del territorio quedó dominado por enemigos, trampas antiguas y estructuras deterioradas.
-
-La construcción visual del mundo busca transmitir sensación constante de aventura, exploración y peligro dentro de un entorno fantástico representado mediante gráficos \textit{Pixel Art} con composición visual \textbf{2.5D}.
-
-\vspace{0.3cm}
-
-\subsubsection*{Diseño de escenarios}
-
-Los escenarios están diseñados para combinar exploración, plataformas y combate dinámico dentro de ambientes naturales inspirados en fantasía medieval.
-
-Visualmente, cada nivel utiliza fondos multicapa, elementos ambientales y sistemas de \textit{parallax scrolling} para generar sensación de profundidad y escala, creando escenarios más inmersivos y vivos pese a mantener una jugabilidad bidimensional.
-
-Los escenarios presentan plataformas flotantes, puentes colgantes, caminos elevados y estructuras construidas entre enormes árboles y acantilados. La composición del entorno busca guiar visualmente al jugador mediante iluminación, color y distribución estratégica de plataformas y enemigos.
-
-\vspace{0.3cm}
-
-\subsubsection*{Bosques encantados}
-
-Las regiones principales del videojuego se desarrollan dentro de bosques mágicos caracterizados por vegetación abundante, árboles gigantescos y senderos construidos sobre estructuras naturales.
-
-Estos escenarios utilizan tonos verdes, marrones y azules fríos para transmitir sensación de naturaleza fantástica mezclada con peligro constante.
-
-Dentro del bosque, el jugador encontrará:
+Para lograr la ambientación gótica e inmersiva característica del proyecto sin abandonar la jugabilidad bidimensional, los escenarios se construyen bajo una estructura de cinco capas de desplazamiento diferencial (\emph{Parallax Scrolling}) reguladas por la cámara:
 
 \begin{itemize}
-    \item Plataformas suspendidas entre árboles.
-    \item Puentes colgantes deteriorados.
-    \item Cascadas y ríos subterráneos.
-    \item Caminos ocultos entre la vegetación.
-    \item Cristales mágicos distribuidos en distintas zonas.
+    \item \textbf{Capa 1: Fondo Lejano (Far Background - Velocidad Parallax 0.05):} Contiene elementos celestes como el cielo gótico nocturno, nubes bajas en movimiento lento, neblina volumétrica y una luna llena pálida que actúa como fuente de luz principal del escenario.
+    \item \textbf{Capa 2: Plano Medio Lejano (Mid-Far Background - Velocidad Parallax 0.25):} Muestra las siluetas lejanas del imponente castillo en ruinas de Valtheria, montañas escarpadas y la Torre del Hechicero recortándose contra el cielo.
+    \item \textbf{Capa 3: Plano Medio Cercano (Mid-Close Background - Velocidad Parallax 0.60):} Árboles secos y retorcidos de Eldergrove, rejas de hierro oxidadas, estatuas rotas de antiguos caballeros y pilares góticos erosionados. Esta capa provee el contexto inmediato de abandono.
+    \item \textbf{Capa 4: Plano Jugable (Playable Plane - Velocidad Parallax 1.0):} El entorno con colisiones activas. Contiene los Tilemaps de suelo, paredes, plataformas suspendidas, cofres, gemas, pinchos, sierras móviles y todos los personajes del juego.
+    \item \textbf{Capa 5: Primer Plano Oclusivo (Foreground Occlusion - Velocidad Parallax 1.30):} Ramas de árboles oscuras, hojas secas y enredaderas desenfocadas colocadas en el borde inmediato de la pantalla. Estos elementos se desplazan más rápido que el jugador, ocluyendo la cámara temporalmente para incrementar la sensación de profundidad espacial y confinamiento.
 \end{itemize}
 
-La iluminación ambiental incorpora niebla ligera, partículas flotantes y pequeños destellos mágicos que refuerzan la atmósfera misteriosa de Eldergrove.
+\subsubsection*{Ambientación de los Jardines Marchitos}
 
-\vspace{0.3cm}
-
-\subsubsection*{Cuevas y zonas subterráneas}
-
-Las regiones subterráneas representan espacios más cerrados y peligrosos donde la iluminación disminuye considerablemente y la presencia de corrupción resulta más evidente.
-
-Estas zonas incorporan:
-
+Los \textit{Jardines Marchitos} son el entorno principal del prototipo. Corresponden a los antiguos jardines reales de la corte de Valtheria, ahora marchitos debido al avance de la corrupción.
 \begin{itemize}
-    \item Rocas puntiagudas.
-    \item Cristales luminosos.
-    \item Plataformas estrechas.
-    \item Trampas de fuego.
-    \item Zonas de caída.
+    \item \textbf{Dirección Visual:} Tonos verdes apagados, marrones otoñales y grises de piedra erosionada. Se añaden pequeños flujos de partículas que simulan hojas secas cayendo.
+    \item \textbf{Iluminación:} Contraste entre la luz fría de la luna (luz ambiental azulada) y los destellos celestes de los cristales mágicos y el Eco de Elara.
 \end{itemize}
 
-La atmósfera utiliza tonos azulados, violetas y sombras profundas para generar tensión y sensación de aislamiento.
+\subsubsection*{Zonas subterráneas y Mazmorras}
 
-\vspace{0.3cm}
-
-\subsubsection*{Estructura jugable del entorno}
-
-El diseño del mundo no cumple únicamente función estética, sino también jugable. Cada escenario está construido para incentivar:
-
+Diseñadas para la progresión narrativa y espacial del juego, representan espacios claustrofóbicos y oscuros.
 \begin{itemize}
-    \item Exploración.
-    \item Precisión en plataformas.
-    \item Combate estratégico.
-    \item Descubrimiento de caminos alternativos.
-    \item Recolección de objetos especiales.
+    \item \textbf{Dirección Visual:} Predominancia de grises oscuros, azules fríos y púrpuras. Las plataformas son más estrechas y los abismos son más frecuentes.
+    \item \textbf{Elementos del entorno:} Restos de celdas medievales, cadenas colgantes, y sistemas de trampas activos (como las sierras mecánicas circulares).
 \end{itemize}
 
-La distribución de enemigos, plataformas y obstáculos busca mantener un ritmo dinámico de progresión mientras el jugador atraviesa distintas regiones afectadas por la corrupción.
+\subsubsection*{Narrativa ambiental}
 
-\vspace{0.3cm}
-
-\subsubsection*{Atmósfera y narrativa ambiental}
-
-El videojuego utiliza narrativa ambiental para transmitir información sobre el estado del reino y el avance de la corrupción sin depender constantemente de diálogos.
-
-Los escenarios reflejan decadencia y peligro mediante:
-
-\begin{itemize}
-    \item Vegetación marchita.
-    \item Caminos destruidos.
-    \item Puentes deteriorados.
-    \item Árboles corrompidos.
-    \item Restos de antiguos campamentos abandonados.
-\end{itemize}
-
-Estos elementos ayudan a construir un mundo coherente y permiten que el jugador interprete visualmente la historia del entorno mientras explora.
+El estado del mundo se comunica mediante el entorno gótico sin depender de diálogos constantes. La vegetación muerta, los puentes colgantes rotos, las estatuas derrumbadas de la Orden de los Guardianes y los restos de campamentos antiguos informan al jugador sobre la magnitud de la catástrofe que ocurrió en Valtheria y la gravedad del pecado de Sir Gareth.
