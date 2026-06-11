@@ -1,0 +1,1807 @@
+fileFormatVersion: 2
+guid: 6da9d37c2b3ea8441a2d4717dacc81fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1948762474900824588
+    second: Elara-Checkpoint_0
+  - first:
+      213: -5347033526625814097
+    second: Elara-Checkpoint_1
+  - first:
+      213: 3752529389017670063
+    second: Elara-Checkpoint_2
+  - first:
+      213: -5767850013007614251
+    second: Elara-Checkpoint_3
+  - first:
+      213: 3685656040849570679
+    second: Elara-Checkpoint_4
+  - first:
+      213: -8555417723798154531
+    second: Elara-Checkpoint_5
+  - first:
+      213: -2034164389782977287
+    second: Elara-Checkpoint_6
+  - first:
+      213: -8170187423112831755
+    second: Elara-Checkpoint_7
+  - first:
+      213: -7492177375184333448
+    second: Elara-Checkpoint_8
+  - first:
+      213: -1466104534799144184
+    second: Elara-Checkpoint_9
+  - first:
+      213: -1520883405620689423
+    second: Elara-Checkpoint_10
+  - first:
+      213: 9114485755858259892
+    second: Elara-Checkpoint_11
+  - first:
+      213: 6425092514719802409
+    second: Elara-Checkpoint_12
+  - first:
+      213: 7947164355855294770
+    second: Elara-Checkpoint_13
+  - first:
+      213: 847139679624813253
+    second: Elara-Checkpoint_14
+  - first:
+      213: 1822358307141780872
+    second: Elara-Checkpoint_15
+  - first:
+      213: -7120384563980244659
+    second: Elara-Checkpoint_16
+  - first:
+      213: -8023897091275995151
+    second: Elara-Checkpoint_17
+  - first:
+      213: -8784502366926644487
+    second: Elara-Checkpoint_18
+  - first:
+      213: -2383440089129010582
+    second: Elara-Checkpoint_19
+  - first:
+      213: -7298563995217433721
+    second: Elara-Checkpoint_20
+  - first:
+      213: -2530537788966916750
+    second: Elara-Checkpoint_21
+  - first:
+      213: 8491561124762780865
+    second: Elara-Checkpoint_22
+  - first:
+      213: -2326204671326500300
+    second: Elara-Checkpoint_23
+  - first:
+      213: -797280293383769790
+    second: Elara-Checkpoint_24
+  - first:
+      213: 3510715769812451304
+    second: Elara-Checkpoint_25
+  - first:
+      213: -5831458596313598695
+    second: Elara-Checkpoint_26
+  - first:
+      213: 5750971856890600113
+    second: Elara-Checkpoint_27
+  - first:
+      213: 6221540729233693013
+    second: Elara-Checkpoint_28
+  - first:
+      213: 4866140090346495270
+    second: Elara-Checkpoint_29
+  - first:
+      213: 188162698102314409
+    second: Elara-Checkpoint_30
+  - first:
+      213: -1211043301649928184
+    second: Elara-Checkpoint_31
+  - first:
+      213: -1357833715527556396
+    second: Elara-Checkpoint_32
+  - first:
+      213: 4600015791479272460
+    second: Elara-Checkpoint_33
+  - first:
+      213: 7399362217947145093
+    second: Elara-Checkpoint_34
+  - first:
+      213: -1728727872329981289
+    second: Elara-Checkpoint_35
+  - first:
+      213: -6955220783717725514
+    second: Elara-Checkpoint_36
+  - first:
+      213: -2793776981785247721
+    second: Elara-Checkpoint_37
+  - first:
+      213: 5343698262160489497
+    second: Elara-Checkpoint_38
+  - first:
+      213: -1926503535744255180
+    second: Elara-Checkpoint_39
+  - first:
+      213: -1453641159095536654
+    second: Elara-Checkpoint_40
+  - first:
+      213: -8595517879247934501
+    second: Elara-Checkpoint_41
+  - first:
+      213: -2594749732178843319
+    second: Elara-Checkpoint_42
+  - first:
+      213: 4819556534097176427
+    second: Elara-Checkpoint_43
+  - first:
+      213: -18203528148511261
+    second: Elara-Checkpoint_44
+  - first:
+      213: 2915555357433190971
+    second: Elara-Checkpoint_45
+  - first:
+      213: 5931882900757144708
+    second: Elara-Checkpoint_46
+  - first:
+      213: 4992979706764476479
+    second: Elara-Checkpoint_47
+  - first:
+      213: -4577401914376370840
+    second: Elara-Checkpoint_48
+  - first:
+      213: 4111840808380790731
+    second: Elara-Checkpoint_49
+  - first:
+      213: -6499619870257255379
+    second: Elara-Checkpoint_50
+  - first:
+      213: -388320535034032418
+    second: Elara-Checkpoint_51
+  - first:
+      213: 3406566860922866733
+    second: Elara-Checkpoint_52
+  - first:
+      213: 7476144202567772220
+    second: Elara-Checkpoint_53
+  - first:
+      213: -4605588547475807005
+    second: Elara-Checkpoint_54
+  - first:
+      213: 7208062810882832951
+    second: Elara-Checkpoint_55
+  - first:
+      213: 6362984392178556558
+    second: Elara-Checkpoint_56
+  - first:
+      213: -1708861644581497855
+    second: Elara-Checkpoint_57
+  - first:
+      213: 5390722738573093471
+    second: Elara-Checkpoint_58
+  - first:
+      213: 3624403996573096833
+    second: Elara-Checkpoint_59
+  - first:
+      213: 3980120416091784106
+    second: Elara-Checkpoint_60
+  - first:
+      213: -2692244205781913415
+    second: Elara-Checkpoint_61
+  - first:
+      213: 3268634495308578368
+    second: Elara-Checkpoint_62
+  - first:
+      213: 5993093979295147067
+    second: Elara-Checkpoint_63
+  - first:
+      213: -6496480803985560484
+    second: Elara-Checkpoint_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elara-Checkpoint_0
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 3763
+        width: 312
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02231c55256b0b10800000000000000
+      internalID: 1948762474900824588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_1
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 3763
+        width: 312
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa93d5b56558bc5b0800000000000000
+      internalID: -5347033526625814097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_2
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 3763
+        width: 312
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1ac99f899a31430800000000000000
+      internalID: 3752529389017670063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_3
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 4109
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dee2f8f8fa74ffa0800000000000000
+      internalID: -5767850013007614251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_4
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 3763
+        width: 312
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b7c1744a4162330800000000000000
+      internalID: 3685656040849570679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_5
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4111
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd21ee3a8ec054980800000000000000
+      internalID: -8555417723798154531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_6
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 3763
+        width: 312
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f48c34d34235c3e0800000000000000
+      internalID: -2034164389782977287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_7
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 4114
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcdef083d9ad9e80800000000000000
+      internalID: -8170187423112831755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_8
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 3763
+        width: 312
+        height: 570
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8755bed5f50760890800000000000000
+      internalID: -7492177375184333448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_9
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 4118
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b25bf71b957abe0800000000000000
+      internalID: -1466104534799144184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_10
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 4104
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5413fb99cb4eae0800000000000000
+      internalID: -1520883405620689423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_11
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 4106
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf0a4c11882d7e70800000000000000
+      internalID: 9114485755858259892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_12
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 4067
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92425ecb9938a2950800000000000000
+      internalID: 6425092514719802409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_13
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 4068
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231a66230eff94e60800000000000000
+      internalID: 7947164355855294770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_14
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 4070
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cadc2fdc05a1cb00800000000000000
+      internalID: 847139679624813253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_15
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 4071
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8850bae99315a4910800000000000000
+      internalID: 1822358307141780872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_16
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 4073
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4968c7e6ff4f2d90800000000000000
+      internalID: -7120384563980244659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_17
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 4077
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f74430ab1465a090800000000000000
+      internalID: -8023897091275995151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_18
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 3027
+        width: 312
+        height: 573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa52cab3ad271680800000000000000
+      internalID: -8784502366926644487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_19
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 3384
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a3a00fdd15ceed0800000000000000
+      internalID: -2383440089129010582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_20
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 3027
+        width: 312
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78beb9e37ba46ba90800000000000000
+      internalID: -7298563995217433721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_21
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 3386
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dacedc949b1ecd0800000000000000
+      internalID: -2530537788966916750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_22
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 3027
+        width: 312
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4800e4ad518d570800000000000000
+      internalID: 8491561124762780865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_23
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 3389
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43acaba1d29a7bfd0800000000000000
+      internalID: -2326204671326500300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_24
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 3027
+        width: 312
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241f07e1ccd7fe4f0800000000000000
+      internalID: -797280293383769790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_25
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3392
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef780f546198b030800000000000000
+      internalID: 3510715769812451304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_26
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 3027
+        width: 312
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91574549d4f721fa0800000000000000
+      internalID: -5831458596313598695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_27
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 3396
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba9b331f6e8fcf40800000000000000
+      internalID: 5750971856890600113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_28
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 3027
+        width: 312
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5595991845a575650800000000000000
+      internalID: 6221540729233693013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_29
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 3399
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62dd36851a0088340800000000000000
+      internalID: 4866140090346495270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_30
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 3344
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a51e5c1afc7c9200800000000000000
+      internalID: 188162698102314409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_31
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3346
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8003a859882813fe0800000000000000
+      internalID: -1211043301649928184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_32
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 3348
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d26ee90e61082de0800000000000000
+      internalID: -1357833715527556396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_33
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 3352
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c043f4c8df986df30800000000000000
+      internalID: 4600015791479272460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_34
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2291
+        width: 427
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583af25dbb0dfa660800000000000000
+      internalID: 7399362217947145093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_35
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 2291
+        width: 431
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7926478c8235208e0800000000000000
+      internalID: -1728727872329981289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_36
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 2291
+        width: 453
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba471c2c871a7f90800000000000000
+      internalID: -6955220783717725514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_37
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 2291
+        width: 543
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710070b13a28a39d0800000000000000
+      internalID: -2793776981785247721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_38
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 2291
+        width: 521
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91cb2fed141a82a40800000000000000
+      internalID: 5343698262160489497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_39
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 2291
+        width: 464
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bfd65cd3fa345e0800000000000000
+      internalID: -1926503535744255180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_40
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1555
+        width: 434
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f339394111a3dbe0800000000000000
+      internalID: -1453641159095536654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_41
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1555
+        width: 443
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb68e2a70696b880800000000000000
+      internalID: -8595517879247934501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_42
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1555
+        width: 441
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949a07cbdd89dfbd0800000000000000
+      internalID: -2594749732178843319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_43
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1555
+        width: 447
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6766c5f12182e240800000000000000
+      internalID: 4819556534097176427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_44
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1555
+        width: 439
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e59c03dcf35fbff0800000000000000
+      internalID: -18203528148511261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_45
+      rect:
+        serializedVersion: 2
+        x: 2724
+        y: 1555
+        width: 483
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3adaca7622267820800000000000000
+      internalID: 2915555357433190971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_46
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 819
+        width: 443
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484e7dcd118425250800000000000000
+      internalID: 5931882900757144708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_47
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 819
+        width: 461
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f304e60e690aa4540800000000000000
+      internalID: 4992979706764476479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_48
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 819
+        width: 390
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8654763063dc970c0800000000000000
+      internalID: -4577401914376370840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_49
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 819
+        width: 427
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7fd740e61301930800000000000000
+      internalID: 4111840808380790731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_50
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 819
+        width: 344
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2cee3a1a26bcc5a0800000000000000
+      internalID: -6499619870257255379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_51
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 819
+        width: 312
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede8e42e7886c9af0800000000000000
+      internalID: -388320535034032418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_52
+      rect:
+        serializedVersion: 2
+        x: 3135
+        y: 1248
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ccce0e28e864f20800000000000000
+      internalID: 3406566860922866733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_53
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 83
+        width: 312
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38e5abba8990c760800000000000000
+      internalID: 7476144202567772220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_54
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 514
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4e8161e99a510c0800000000000000
+      internalID: -4605588547475807005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_55
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 83
+        width: 312
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73aff51cfee280460800000000000000
+      internalID: 7208062810882832951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_56
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 515
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e5827979cdd4850800000000000000
+      internalID: 6362984392178556558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_57
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 83
+        width: 312
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1041e606367e848e0800000000000000
+      internalID: -1708861644581497855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_58
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 518
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a254bf4c1bfca40800000000000000
+      internalID: 5390722738573093471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_59
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 83
+        width: 312
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bde326b387c4230800000000000000
+      internalID: 3624403996573096833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_60
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 520
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa34e6c4e6a3c3730800000000000000
+      internalID: 3980120416091784106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_61
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 83
+        width: 312
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0f3c1b82a33aad0800000000000000
+      internalID: -2692244205781913415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_62
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 522
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04eb47961c58c5d20800000000000000
+      internalID: 3268634495308578368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_63
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 83
+        width: 312
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b346b6da83fbb2350800000000000000
+      internalID: 5993093979295147067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elara-Checkpoint_64
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 526
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ceb4ce02dd7d5a0800000000000000
+      internalID: -6496480803985560484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Elara-Checkpoint_0: 1948762474900824588
+      Elara-Checkpoint_1: -5347033526625814097
+      Elara-Checkpoint_10: -1520883405620689423
+      Elara-Checkpoint_11: 9114485755858259892
+      Elara-Checkpoint_12: 6425092514719802409
+      Elara-Checkpoint_13: 7947164355855294770
+      Elara-Checkpoint_14: 847139679624813253
+      Elara-Checkpoint_15: 1822358307141780872
+      Elara-Checkpoint_16: -7120384563980244659
+      Elara-Checkpoint_17: -8023897091275995151
+      Elara-Checkpoint_18: -8784502366926644487
+      Elara-Checkpoint_19: -2383440089129010582
+      Elara-Checkpoint_2: 3752529389017670063
+      Elara-Checkpoint_20: -7298563995217433721
+      Elara-Checkpoint_21: -2530537788966916750
+      Elara-Checkpoint_22: 8491561124762780865
+      Elara-Checkpoint_23: -2326204671326500300
+      Elara-Checkpoint_24: -797280293383769790
+      Elara-Checkpoint_25: 3510715769812451304
+      Elara-Checkpoint_26: -5831458596313598695
+      Elara-Checkpoint_27: 5750971856890600113
+      Elara-Checkpoint_28: 6221540729233693013
+      Elara-Checkpoint_29: 4866140090346495270
+      Elara-Checkpoint_3: -5767850013007614251
+      Elara-Checkpoint_30: 188162698102314409
+      Elara-Checkpoint_31: -1211043301649928184
+      Elara-Checkpoint_32: -1357833715527556396
+      Elara-Checkpoint_33: 4600015791479272460
+      Elara-Checkpoint_34: 7399362217947145093
+      Elara-Checkpoint_35: -1728727872329981289
+      Elara-Checkpoint_36: -6955220783717725514
+      Elara-Checkpoint_37: -2793776981785247721
+      Elara-Checkpoint_38: 5343698262160489497
+      Elara-Checkpoint_39: -1926503535744255180
+      Elara-Checkpoint_4: 3685656040849570679
+      Elara-Checkpoint_40: -1453641159095536654
+      Elara-Checkpoint_41: -8595517879247934501
+      Elara-Checkpoint_42: -2594749732178843319
+      Elara-Checkpoint_43: 4819556534097176427
+      Elara-Checkpoint_44: -18203528148511261
+      Elara-Checkpoint_45: 2915555357433190971
+      Elara-Checkpoint_46: 5931882900757144708
+      Elara-Checkpoint_47: 4992979706764476479
+      Elara-Checkpoint_48: -4577401914376370840
+      Elara-Checkpoint_49: 4111840808380790731
+      Elara-Checkpoint_5: -8555417723798154531
+      Elara-Checkpoint_50: -6499619870257255379
+      Elara-Checkpoint_51: -388320535034032418
+      Elara-Checkpoint_52: 3406566860922866733
+      Elara-Checkpoint_53: 7476144202567772220
+      Elara-Checkpoint_54: -4605588547475807005
+      Elara-Checkpoint_55: 7208062810882832951
+      Elara-Checkpoint_56: 6362984392178556558
+      Elara-Checkpoint_57: -1708861644581497855
+      Elara-Checkpoint_58: 5390722738573093471
+      Elara-Checkpoint_59: 3624403996573096833
+      Elara-Checkpoint_6: -2034164389782977287
+      Elara-Checkpoint_60: 3980120416091784106
+      Elara-Checkpoint_61: -2692244205781913415
+      Elara-Checkpoint_62: 3268634495308578368
+      Elara-Checkpoint_63: 5993093979295147067
+      Elara-Checkpoint_64: -6496480803985560484
+      Elara-Checkpoint_7: -8170187423112831755
+      Elara-Checkpoint_8: -7492177375184333448
+      Elara-Checkpoint_9: -1466104534799144184
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
