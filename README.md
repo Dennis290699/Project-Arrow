@@ -9,7 +9,15 @@
 - Jhon Erick Enriquez Cali
 - Ninabanda Pambabay Jhonny Eduardo
 
-## Configuración de Git LFS (¡IMPORTANTE!)
+
+## Requisitos del Proyecto (¡MUY IMPORTANTE!)
+
+### 1. Versión del Motor de Unity
+Para evitar corrupción de escenas, materiales o prefabs, **todo el equipo debe utilizar la misma versión exacta del motor**:
+* **Versión Oficial:** `Unity 6 (6000.3.14f1 LTS)`
+* **Instalación:** Cuando importes el proyecto en **Unity Hub**, el Hub detectará automáticamente la versión correcta desde los archivos de configuración (`ProjectVersion.txt`) y te dará la opción de descargar e instalar esta versión exacta con un solo clic si no la tienes instalada.
+
+### 2. Configuración de Git LFS (¡IMPORTANTE!)
 
 Este proyecto utiliza **Git LFS (Large File Storage)** para gestionar de manera eficiente los archivos multimedia pesados (imágenes, audios, videos, modelos 3D y librerías) en la carpeta de Unity.
 
