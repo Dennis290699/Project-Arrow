@@ -1,0 +1,35 @@
+# Git LFS for heavy Unity project assets
+Chronicles-of-the-Cursed-Knight/Assets/**/*.png filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.gif filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.bmp filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.tga filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.tif filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.tiff filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.psd filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.ai filter=lfs diff=lfs merge=lfs -text
+
+Chronicles-of-the-Cursed-Knight/Assets/**/*.wav filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.ogg filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.flac filter=lfs diff=lfs merge=lfs -text
+
+Chronicles-of-the-Cursed-Knight/Assets/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.mov filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.avi filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.webm filter=lfs diff=lfs merge=lfs -text
+
+Chronicles-of-the-Cursed-Knight/Assets/**/*.fbx filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.obj filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.blend filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.dae filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.3ds filter=lfs diff=lfs merge=lfs -text
+
+Chronicles-of-the-Cursed-Knight/Assets/**/*.ttf filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.otf filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.dll filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.unitypackage filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.zip filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.rar filter=lfs diff=lfs merge=lfs -text
+Chronicles-of-the-Cursed-Knight/Assets/**/*.7z filter=lfs diff=lfs merge=lfs -text

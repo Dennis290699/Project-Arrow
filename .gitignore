@@ -1,0 +1,36 @@
+# Unity generated folders
+Chronicles-of-the-Cursed-Knight/[Ll]ibrary/
+Chronicles-of-the-Cursed-Knight/[Tt]emp/
+Chronicles-of-the-Cursed-Knight/[Oo]bj/
+Chronicles-of-the-Cursed-Knight/[Bb]uild/
+Chronicles-of-the-Cursed-Knight/[Bb]uilds/
+Chronicles-of-the-Cursed-Knight/[Ll]ogs/
+Chronicles-of-the-Cursed-Knight/[Uu]ser[Ss]ettings/
+Chronicles-of-the-Cursed-Knight/[Mm]emoryCaptures/
+Chronicles-of-the-Cursed-Knight/[Rr]ecordings/
+
+# Unity recovery/autosave content
+Chronicles-of-the-Cursed-Knight/Assets/_Recovery/
+Chronicles-of-the-Cursed-Knight/Assets/_Recovery.meta
+
+# IDE and generated project files
+Chronicles-of-the-Cursed-Knight/.vs/
+Chronicles-of-the-Cursed-Knight/.vscode/
+Chronicles-of-the-Cursed-Knight/*.csproj
+Chronicles-of-the-Cursed-Knight/*.sln
+Chronicles-of-the-Cursed-Knight/*.suo
+Chronicles-of-the-Cursed-Knight/*.user
+Chronicles-of-the-Cursed-Knight/*.userprefs
+Chronicles-of-the-Cursed-Knight/*.pidb
+Chronicles-of-the-Cursed-Knight/*.booproj
+Chronicles-of-the-Cursed-Knight/.vsconfig
+
+# Unity crash and profiler artifacts
+Chronicles-of-the-Cursed-Knight/sysinfo.txt
+Chronicles-of-the-Cursed-Knight/*.stackdump
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
