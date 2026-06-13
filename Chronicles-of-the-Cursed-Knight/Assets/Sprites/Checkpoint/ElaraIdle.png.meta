@@ -1,202 +1,250 @@
 fileFormatVersion: 2
-guid: 6da9d37c2b3ea8441a2d4717dacc81fe
+guid: 7577f9b87dd5c354b9d5ef15aec9c868
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1948762474900824588
-    second: Elara-Checkpoint_0
+      213: 2564381767471266639
+    second: ElaraIdle_0
   - first:
-      213: -5347033526625814097
-    second: Elara-Checkpoint_1
+      213: -8118816116940515636
+    second: ElaraIdle_1
   - first:
-      213: 3752529389017670063
-    second: Elara-Checkpoint_2
+      213: -4314535310871477004
+    second: ElaraIdle_2
   - first:
-      213: -5767850013007614251
-    second: Elara-Checkpoint_3
+      213: 8937473283425280998
+    second: ElaraIdle_3
   - first:
-      213: 3685656040849570679
-    second: Elara-Checkpoint_4
+      213: 7186742486095951857
+    second: ElaraIdle_4
   - first:
-      213: -8555417723798154531
-    second: Elara-Checkpoint_5
+      213: -2128289356413468789
+    second: ElaraIdle_5
   - first:
-      213: -2034164389782977287
-    second: Elara-Checkpoint_6
+      213: 8969002675078719060
+    second: ElaraIdle_6
   - first:
-      213: -8170187423112831755
-    second: Elara-Checkpoint_7
+      213: -2982406022496494511
+    second: ElaraIdle_7
   - first:
-      213: -7492177375184333448
-    second: Elara-Checkpoint_8
+      213: 7923171496009022441
+    second: ElaraIdle_8
   - first:
-      213: -1466104534799144184
-    second: Elara-Checkpoint_9
+      213: 6393787904934404678
+    second: ElaraIdle_9
   - first:
-      213: -1520883405620689423
-    second: Elara-Checkpoint_10
+      213: 8178049715010662132
+    second: ElaraIdle_10
   - first:
-      213: 9114485755858259892
-    second: Elara-Checkpoint_11
+      213: -1413871453636202280
+    second: ElaraIdle_11
   - first:
-      213: 6425092514719802409
-    second: Elara-Checkpoint_12
+      213: -8865964426346013545
+    second: ElaraIdle_12
   - first:
-      213: 7947164355855294770
-    second: Elara-Checkpoint_13
+      213: -6481537103050957717
+    second: ElaraIdle_13
   - first:
-      213: 847139679624813253
-    second: Elara-Checkpoint_14
+      213: 5286284780180314494
+    second: ElaraIdle_14
   - first:
-      213: 1822358307141780872
-    second: Elara-Checkpoint_15
+      213: -6630070631556049825
+    second: ElaraIdle_15
   - first:
-      213: -7120384563980244659
-    second: Elara-Checkpoint_16
+      213: -2042150366983419508
+    second: ElaraIdle_16
   - first:
-      213: -8023897091275995151
-    second: Elara-Checkpoint_17
+      213: 590604575023008451
+    second: ElaraIdle_17
   - first:
-      213: -8784502366926644487
-    second: Elara-Checkpoint_18
+      213: -7263860653138900040
+    second: ElaraIdle_18
   - first:
-      213: -2383440089129010582
-    second: Elara-Checkpoint_19
+      213: 2939494037251885599
+    second: ElaraIdle_19
   - first:
-      213: -7298563995217433721
-    second: Elara-Checkpoint_20
+      213: -4155823050576730280
+    second: ElaraIdle_20
   - first:
-      213: -2530537788966916750
-    second: Elara-Checkpoint_21
+      213: 3679747879029286093
+    second: ElaraIdle_21
   - first:
-      213: 8491561124762780865
-    second: Elara-Checkpoint_22
+      213: -3884029161761701617
+    second: ElaraIdle_22
   - first:
-      213: -2326204671326500300
-    second: Elara-Checkpoint_23
+      213: -3105094548997445893
+    second: ElaraIdle_23
   - first:
-      213: -797280293383769790
-    second: Elara-Checkpoint_24
+      213: -3256307376003752776
+    second: ElaraIdle_24
   - first:
-      213: 3510715769812451304
-    second: Elara-Checkpoint_25
+      213: 7967766832025724812
+    second: ElaraIdle_25
   - first:
-      213: -5831458596313598695
-    second: Elara-Checkpoint_26
+      213: 3081640237288785736
+    second: ElaraIdle_26
   - first:
-      213: 5750971856890600113
-    second: Elara-Checkpoint_27
+      213: 349708454317134243
+    second: ElaraIdle_27
   - first:
-      213: 6221540729233693013
-    second: Elara-Checkpoint_28
+      213: 3710779217173809268
+    second: ElaraIdle_28
   - first:
-      213: 4866140090346495270
-    second: Elara-Checkpoint_29
+      213: 2355252707728392160
+    second: ElaraIdle_29
   - first:
-      213: 188162698102314409
-    second: Elara-Checkpoint_30
+      213: 7781594546068519103
+    second: ElaraIdle_30
   - first:
-      213: -1211043301649928184
-    second: Elara-Checkpoint_31
+      213: -2695370531660455575
+    second: ElaraIdle_31
   - first:
-      213: -1357833715527556396
-    second: Elara-Checkpoint_32
+      213: -2630869466324917534
+    second: ElaraIdle_32
   - first:
-      213: 4600015791479272460
-    second: Elara-Checkpoint_33
+      213: -8637719327548559287
+    second: ElaraIdle_33
   - first:
-      213: 7399362217947145093
-    second: Elara-Checkpoint_34
+      213: -2716340720690874326
+    second: ElaraIdle_34
   - first:
-      213: -1728727872329981289
-    second: Elara-Checkpoint_35
+      213: -2636599541031360273
+    second: ElaraIdle_35
   - first:
-      213: -6955220783717725514
-    second: Elara-Checkpoint_36
+      213: -4642659688153328307
+    second: ElaraIdle_36
   - first:
-      213: -2793776981785247721
-    second: Elara-Checkpoint_37
+      213: -3765797109028206900
+    second: ElaraIdle_37
   - first:
-      213: 5343698262160489497
-    second: Elara-Checkpoint_38
+      213: -1682106638510016679
+    second: ElaraIdle_38
   - first:
-      213: -1926503535744255180
-    second: Elara-Checkpoint_39
+      213: 1085964865471609598
+    second: ElaraIdle_39
   - first:
-      213: -1453641159095536654
-    second: Elara-Checkpoint_40
+      213: -3582302092861696047
+    second: ElaraIdle_40
   - first:
-      213: -8595517879247934501
-    second: Elara-Checkpoint_41
+      213: -4570038276535442288
+    second: ElaraIdle_41
   - first:
-      213: -2594749732178843319
-    second: Elara-Checkpoint_42
+      213: 2451870352156976378
+    second: ElaraIdle_42
   - first:
-      213: 4819556534097176427
-    second: Elara-Checkpoint_43
+      213: 1636264797013449833
+    second: ElaraIdle_43
   - first:
-      213: -18203528148511261
-    second: Elara-Checkpoint_44
+      213: -1430251440382260289
+    second: ElaraIdle_44
   - first:
-      213: 2915555357433190971
-    second: Elara-Checkpoint_45
+      213: -4235775343248030002
+    second: ElaraIdle_45
   - first:
-      213: 5931882900757144708
-    second: Elara-Checkpoint_46
+      213: -5009212410343824370
+    second: ElaraIdle_46
   - first:
-      213: 4992979706764476479
-    second: Elara-Checkpoint_47
+      213: -2953731122431381921
+    second: ElaraIdle_47
   - first:
-      213: -4577401914376370840
-    second: Elara-Checkpoint_48
+      213: 6258988984191660303
+    second: ElaraIdle_48
   - first:
-      213: 4111840808380790731
-    second: Elara-Checkpoint_49
+      213: 448659319024050782
+    second: ElaraIdle_49
   - first:
-      213: -6499619870257255379
-    second: Elara-Checkpoint_50
+      213: 948332814242487548
+    second: ElaraIdle_50
   - first:
-      213: -388320535034032418
-    second: Elara-Checkpoint_51
+      213: -1210004468587939750
+    second: ElaraIdle_51
   - first:
-      213: 3406566860922866733
-    second: Elara-Checkpoint_52
+      213: 7815898816247739109
+    second: ElaraIdle_52
   - first:
-      213: 7476144202567772220
-    second: Elara-Checkpoint_53
+      213: -1214163384797224730
+    second: ElaraIdle_53
   - first:
-      213: -4605588547475807005
-    second: Elara-Checkpoint_54
+      213: 774739311355294358
+    second: ElaraIdle_54
   - first:
-      213: 7208062810882832951
-    second: Elara-Checkpoint_55
+      213: 673296781279757687
+    second: ElaraIdle_55
   - first:
-      213: 6362984392178556558
-    second: Elara-Checkpoint_56
+      213: 4353853961287713418
+    second: ElaraIdle_56
   - first:
-      213: -1708861644581497855
-    second: Elara-Checkpoint_57
+      213: -6563953875828837778
+    second: ElaraIdle_57
   - first:
-      213: 5390722738573093471
-    second: Elara-Checkpoint_58
+      213: 5524169265534619379
+    second: ElaraIdle_58
   - first:
-      213: 3624403996573096833
-    second: Elara-Checkpoint_59
+      213: 6659758239129580071
+    second: ElaraIdle_59
   - first:
-      213: 3980120416091784106
-    second: Elara-Checkpoint_60
+      213: -2340849026797010500
+    second: ElaraIdle_60
   - first:
-      213: -2692244205781913415
-    second: Elara-Checkpoint_61
+      213: 9137145252884989506
+    second: ElaraIdle_61
   - first:
-      213: 3268634495308578368
-    second: Elara-Checkpoint_62
+      213: 1078151708106657330
+    second: ElaraIdle_62
   - first:
-      213: 5993093979295147067
-    second: Elara-Checkpoint_63
+      213: 3979621360016324556
+    second: ElaraIdle_63
   - first:
-      213: -6496480803985560484
-    second: Elara-Checkpoint_64
+      213: 9026764328180672865
+    second: ElaraIdle_64
+  - first:
+      213: -6043220454664528243
+    second: ElaraIdle_65
+  - first:
+      213: -8485720071703777522
+    second: ElaraIdle_66
+  - first:
+      213: 5853365323646001677
+    second: ElaraIdle_67
+  - first:
+      213: -7794831833017104277
+    second: ElaraIdle_68
+  - first:
+      213: 8772465049010248085
+    second: ElaraIdle_69
+  - first:
+      213: -1786246727708974632
+    second: ElaraIdle_70
+  - first:
+      213: -6176449889699784459
+    second: ElaraIdle_71
+  - first:
+      213: -1313034428932091505
+    second: ElaraIdle_72
+  - first:
+      213: -848068259287511141
+    second: ElaraIdle_73
+  - first:
+      213: 7415679238342870656
+    second: ElaraIdle_74
+  - first:
+      213: 153923813035422067
+    second: ElaraIdle_75
+  - first:
+      213: -6757486553327235565
+    second: ElaraIdle_76
+  - first:
+      213: -6532036120374385079
+    second: ElaraIdle_77
+  - first:
+      213: -7772418480004683471
+    second: ElaraIdle_78
+  - first:
+      213: 8270424869055015642
+    second: ElaraIdle_79
+  - first:
+      213: 6020445310866677106
+    second: ElaraIdle_80
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -267,7 +315,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -292,13 +340,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Elara-Checkpoint_0
+      name: ElaraIdle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 3680
-        width: 542
-        height: 736
+        y: 3610
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,20 +355,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c02231c55256b0b10800000000000000
-      internalID: 1948762474900824588
+      spriteID: f4bfc9e71a3869320800000000000000
+      internalID: 2564381767471266639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_1
+      name: ElaraIdle_1
       rect:
         serializedVersion: 2
-        x: 542
-        y: 3680
-        width: 542
-        height: 736
+        x: 282
+        y: 3610
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,20 +377,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa93d5b56558bc5b0800000000000000
-      internalID: -5347033526625814097
+      spriteID: cc65b09c1cb245f80800000000000000
+      internalID: -8118816116940515636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_2
+      name: ElaraIdle_2
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 3680
-        width: 542
-        height: 736
+        x: 564
+        y: 3610
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,20 +399,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa1ac99f899a31430800000000000000
-      internalID: 3752529389017670063
+      spriteID: 4f440a08ef0bf14c0800000000000000
+      internalID: -4314535310871477004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_3
+      name: ElaraIdle_3
       rect:
         serializedVersion: 2
-        x: 1626
-        y: 3680
-        width: 542
-        height: 736
+        x: 846
+        y: 3610
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,20 +421,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5dee2f8f8fa74ffa0800000000000000
-      internalID: -5767850013007614251
+      spriteID: 6e3ab183998480c70800000000000000
+      internalID: 8937473283425280998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_4
+      name: ElaraIdle_4
       rect:
         serializedVersion: 2
-        x: 2168
-        y: 3680
-        width: 542
-        height: 736
+        x: 1128
+        y: 3610
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,20 +443,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77b7c1744a4162330800000000000000
-      internalID: 3685656040849570679
+      spriteID: 1f7f4ffc6307cb360800000000000000
+      internalID: 7186742486095951857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_5
+      name: ElaraIdle_5
       rect:
         serializedVersion: 2
-        x: 2710
-        y: 3680
-        width: 542
-        height: 736
+        x: 1410
+        y: 3610
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -417,152 +465,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd21ee3a8ec054980800000000000000
-      internalID: -8555417723798154531
+      spriteID: b8ffab34b1cc672e0800000000000000
+      internalID: -2128289356413468789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2944
-        width: 542
-        height: 736
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9f48c34d34235c3e0800000000000000
-      internalID: -2034164389782977287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elara-Checkpoint_7
-      rect:
-        serializedVersion: 2
-        x: 542
-        y: 2944
-        width: 542
-        height: 736
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5fcdef083d9ad9e80800000000000000
-      internalID: -8170187423112831755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elara-Checkpoint_8
-      rect:
-        serializedVersion: 2
-        x: 1084
-        y: 2944
-        width: 542
-        height: 736
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8755bed5f50760890800000000000000
-      internalID: -7492177375184333448
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elara-Checkpoint_9
-      rect:
-        serializedVersion: 2
-        x: 1626
-        y: 2944
-        width: 542
-        height: 736
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80b25bf71b957abe0800000000000000
-      internalID: -1466104534799144184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elara-Checkpoint_10
-      rect:
-        serializedVersion: 2
-        x: 2168
-        y: 2944
-        width: 542
-        height: 736
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1f5413fb99cb4eae0800000000000000
-      internalID: -1520883405620689423
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elara-Checkpoint_11
-      rect:
-        serializedVersion: 2
-        x: 2710
-        y: 2944
-        width: 542
-        height: 736
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4bf0a4c11882d7e70800000000000000
-      internalID: 9114485755858259892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elara-Checkpoint_12
+      name: ElaraIdle_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 2208
-        width: 542
-        height: 736
+        y: 2888
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -571,20 +487,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92425ecb9938a2950800000000000000
-      internalID: 6425092514719802409
+      spriteID: 4566895c96c487c70800000000000000
+      internalID: 8969002675078719060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_13
+      name: ElaraIdle_7
       rect:
         serializedVersion: 2
-        x: 542
-        y: 2208
-        width: 542
-        height: 736
+        x: 282
+        y: 2888
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,20 +509,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 231a66230eff94e60800000000000000
-      internalID: 7947164355855294770
+      spriteID: 15c5c15268d5c96d0800000000000000
+      internalID: -2982406022496494511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_14
+      name: ElaraIdle_8
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 2208
-        width: 542
-        height: 736
+        x: 564
+        y: 2888
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,20 +531,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5cadc2fdc05a1cb00800000000000000
-      internalID: 847139679624813253
+      spriteID: 9eb3e123f72c4fd60800000000000000
+      internalID: 7923171496009022441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_15
+      name: ElaraIdle_9
       rect:
         serializedVersion: 2
-        x: 1626
-        y: 2208
-        width: 542
-        height: 736
+        x: 846
+        y: 2888
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -637,20 +553,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8850bae99315a4910800000000000000
-      internalID: 1822358307141780872
+      spriteID: 642edca493c4bb850800000000000000
+      internalID: 6393787904934404678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_16
+      name: ElaraIdle_10
       rect:
         serializedVersion: 2
-        x: 2168
-        y: 2208
-        width: 542
-        height: 736
+        x: 1128
+        y: 2888
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -659,20 +575,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4968c7e6ff4f2d90800000000000000
-      internalID: -7120384563980244659
+      spriteID: 4fee1baf2e44e7170800000000000000
+      internalID: 8178049715010662132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_17
+      name: ElaraIdle_11
       rect:
         serializedVersion: 2
-        x: 2710
-        y: 2208
-        width: 542
-        height: 736
+        x: 1410
+        y: 2888
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -681,152 +597,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f74430ab1465a090800000000000000
-      internalID: -8023897091275995151
+      spriteID: 8d0f2f7676be06ce0800000000000000
+      internalID: -1413871453636202280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_18
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1472
-        width: 542
-        height: 736
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9fa52cab3ad271680800000000000000
-      internalID: -8784502366926644487
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elara-Checkpoint_19
-      rect:
-        serializedVersion: 2
-        x: 542
-        y: 1472
-        width: 542
-        height: 736
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a6a3a00fdd15ceed0800000000000000
-      internalID: -2383440089129010582
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elara-Checkpoint_20
-      rect:
-        serializedVersion: 2
-        x: 1084
-        y: 1472
-        width: 542
-        height: 736
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 78beb9e37ba46ba90800000000000000
-      internalID: -7298563995217433721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elara-Checkpoint_21
-      rect:
-        serializedVersion: 2
-        x: 1626
-        y: 1472
-        width: 542
-        height: 736
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27dacedc949b1ecd0800000000000000
-      internalID: -2530537788966916750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elara-Checkpoint_22
-      rect:
-        serializedVersion: 2
-        x: 2168
-        y: 1472
-        width: 542
-        height: 736
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1c4800e4ad518d570800000000000000
-      internalID: 8491561124762780865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elara-Checkpoint_23
-      rect:
-        serializedVersion: 2
-        x: 2710
-        y: 1472
-        width: 542
-        height: 736
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 43acaba1d29a7bfd0800000000000000
-      internalID: -2326204671326500300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elara-Checkpoint_24
+      name: ElaraIdle_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 736
-        width: 542
-        height: 736
+        y: 2166
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -835,20 +619,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 241f07e1ccd7fe4f0800000000000000
-      internalID: -797280293383769790
+      spriteID: 79c55600454c5f480800000000000000
+      internalID: -8865964426346013545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_25
+      name: ElaraIdle_13
       rect:
         serializedVersion: 2
-        x: 542
-        y: 736
-        width: 542
-        height: 736
+        x: 282
+        y: 2166
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -857,20 +641,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ef780f546198b030800000000000000
-      internalID: 3510715769812451304
+      spriteID: b6c122e6854fc06a0800000000000000
+      internalID: -6481537103050957717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_26
+      name: ElaraIdle_14
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 736
-        width: 542
-        height: 736
+        x: 564
+        y: 2166
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -879,20 +663,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91574549d4f721fa0800000000000000
-      internalID: -5831458596313598695
+      spriteID: e799338eff7ac5940800000000000000
+      internalID: 5286284780180314494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_27
+      name: ElaraIdle_15
       rect:
         serializedVersion: 2
-        x: 1626
-        y: 736
-        width: 542
-        height: 736
+        x: 846
+        y: 2166
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -901,20 +685,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ba9b331f6e8fcf40800000000000000
-      internalID: 5750971856890600113
+      spriteID: f541a5263e14df3a0800000000000000
+      internalID: -6630070631556049825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_28
+      name: ElaraIdle_16
       rect:
         serializedVersion: 2
-        x: 2168
-        y: 736
-        width: 542
-        height: 736
+        x: 1128
+        y: 2166
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -923,20 +707,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5595991845a575650800000000000000
-      internalID: 6221540729233693013
+      spriteID: c89050e9f03d8a3e0800000000000000
+      internalID: -2042150366983419508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_29
+      name: ElaraIdle_17
       rect:
         serializedVersion: 2
-        x: 2710
-        y: 736
-        width: 542
-        height: 736
+        x: 1410
+        y: 2166
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -945,20 +729,284 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62dd36851a0088340800000000000000
-      internalID: 4866140090346495270
+      spriteID: 3ca87f85bbf323800800000000000000
+      internalID: 590604575023008451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_30
+      name: ElaraIdle_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1444
+        width: 282
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb08b7b835913b90800000000000000
+      internalID: -7263860653138900040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElaraIdle_19
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1444
+        width: 282
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a07c5b04e2bc820800000000000000
+      internalID: 2939494037251885599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElaraIdle_20
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1444
+        width: 282
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8576ef834fc8356c0800000000000000
+      internalID: -4155823050576730280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElaraIdle_21
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1444
+        width: 282
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4a9882337111330800000000000000
+      internalID: 3679747879029286093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElaraIdle_22
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1444
+        width: 282
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f018feb4e08291ac0800000000000000
+      internalID: -3884029161761701617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElaraIdle_23
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1444
+        width: 282
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6610d85fc78e4d0800000000000000
+      internalID: -3105094548997445893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElaraIdle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 722
+        width: 282
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcdfc5b1b54fc2d0800000000000000
+      internalID: -3256307376003752776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElaraIdle_25
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 722
+        width: 282
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87680cf7b1339e60800000000000000
+      internalID: 7967766832025724812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElaraIdle_26
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 722
+        width: 282
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8470625f77f24ca20800000000000000
+      internalID: 3081640237288785736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElaraIdle_27
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 722
+        width: 282
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a116828cf96ad400800000000000000
+      internalID: 349708454317134243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElaraIdle_28
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 722
+        width: 282
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4780c8799065f7330800000000000000
+      internalID: 3710779217173809268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElaraIdle_29
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 722
+        width: 282
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef7d68ebd98fa020800000000000000
+      internalID: 2355252707728392160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElaraIdle_30
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 542
-        height: 736
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -967,20 +1015,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a51e5c1afc7c9200800000000000000
-      internalID: 188162698102314409
+      spriteID: fb8f780d207cdfb60800000000000000
+      internalID: 7781594546068519103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_31
+      name: ElaraIdle_31
       rect:
         serializedVersion: 2
-        x: 542
+        x: 282
         y: 0
-        width: 542
-        height: 736
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -989,20 +1037,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8003a859882813fe0800000000000000
-      internalID: -1211043301649928184
+      spriteID: 961a25a38ce189ad0800000000000000
+      internalID: -2695370531660455575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_32
+      name: ElaraIdle_32
       rect:
         serializedVersion: 2
-        x: 1084
+        x: 564
         y: 0
-        width: 542
-        height: 736
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1011,20 +1059,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d26ee90e61082de0800000000000000
-      internalID: -1357833715527556396
+      spriteID: 2e22849c8264d7bd0800000000000000
+      internalID: -2630869466324917534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_33
+      name: ElaraIdle_33
       rect:
         serializedVersion: 2
-        x: 1626
+        x: 846
         y: 0
-        width: 542
-        height: 736
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1033,20 +1081,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c043f4c8df986df30800000000000000
-      internalID: 4600015791479272460
+      spriteID: 94031f34908a02880800000000000000
+      internalID: -8637719327548559287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_34
+      name: ElaraIdle_34
       rect:
         serializedVersion: 2
-        x: 2168
+        x: 1128
         y: 0
-        width: 542
-        height: 736
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1055,20 +1103,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 583af25dbb0dfa660800000000000000
-      internalID: 7399362217947145093
+      spriteID: a28ba4e918e9d4ad0800000000000000
+      internalID: -2716340720690874326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elara-Checkpoint_35
+      name: ElaraIdle_35
       rect:
         serializedVersion: 2
-        x: 2710
+        x: 1410
         y: 0
-        width: 542
-        height: 736
+        width: 282
+        height: 722
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1077,8 +1125,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7926478c8235208e0800000000000000
-      internalID: -1728727872329981289
+      spriteID: fe82eddcfaae86bd0800000000000000
+      internalID: -2636599541031360273
       vertices: []
       indices: 
       edges: []
@@ -1087,7 +1135,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7d6eef7bfd747e548a88a318c249c1ae
+    spriteID: 4305f6a2fc842e449b65c5061e089456
     internalID: 0
     vertices: []
     indices: 
@@ -1097,44 +1145,44 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":6.0},"gridSpriteSize":{"x":542.0,"y":736.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":6.0},"gridSpriteSize":{"x":282.0,"y":722.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Elara-Checkpoint_0: 1948762474900824588
-      Elara-Checkpoint_1: -5347033526625814097
-      Elara-Checkpoint_10: -1520883405620689423
-      Elara-Checkpoint_11: 9114485755858259892
-      Elara-Checkpoint_12: 6425092514719802409
-      Elara-Checkpoint_13: 7947164355855294770
-      Elara-Checkpoint_14: 847139679624813253
-      Elara-Checkpoint_15: 1822358307141780872
-      Elara-Checkpoint_16: -7120384563980244659
-      Elara-Checkpoint_17: -8023897091275995151
-      Elara-Checkpoint_18: -8784502366926644487
-      Elara-Checkpoint_19: -2383440089129010582
-      Elara-Checkpoint_2: 3752529389017670063
-      Elara-Checkpoint_20: -7298563995217433721
-      Elara-Checkpoint_21: -2530537788966916750
-      Elara-Checkpoint_22: 8491561124762780865
-      Elara-Checkpoint_23: -2326204671326500300
-      Elara-Checkpoint_24: -797280293383769790
-      Elara-Checkpoint_25: 3510715769812451304
-      Elara-Checkpoint_26: -5831458596313598695
-      Elara-Checkpoint_27: 5750971856890600113
-      Elara-Checkpoint_28: 6221540729233693013
-      Elara-Checkpoint_29: 4866140090346495270
-      Elara-Checkpoint_3: -5767850013007614251
-      Elara-Checkpoint_30: 188162698102314409
-      Elara-Checkpoint_31: -1211043301649928184
-      Elara-Checkpoint_32: -1357833715527556396
-      Elara-Checkpoint_33: 4600015791479272460
-      Elara-Checkpoint_34: 7399362217947145093
-      Elara-Checkpoint_35: -1728727872329981289
-      Elara-Checkpoint_4: 3685656040849570679
-      Elara-Checkpoint_5: -8555417723798154531
-      Elara-Checkpoint_6: -2034164389782977287
-      Elara-Checkpoint_7: -8170187423112831755
-      Elara-Checkpoint_8: -7492177375184333448
-      Elara-Checkpoint_9: -1466104534799144184
+      ElaraIdle_0: 2564381767471266639
+      ElaraIdle_1: -8118816116940515636
+      ElaraIdle_10: 8178049715010662132
+      ElaraIdle_11: -1413871453636202280
+      ElaraIdle_12: -8865964426346013545
+      ElaraIdle_13: -6481537103050957717
+      ElaraIdle_14: 5286284780180314494
+      ElaraIdle_15: -6630070631556049825
+      ElaraIdle_16: -2042150366983419508
+      ElaraIdle_17: 590604575023008451
+      ElaraIdle_18: -7263860653138900040
+      ElaraIdle_19: 2939494037251885599
+      ElaraIdle_2: -4314535310871477004
+      ElaraIdle_20: -4155823050576730280
+      ElaraIdle_21: 3679747879029286093
+      ElaraIdle_22: -3884029161761701617
+      ElaraIdle_23: -3105094548997445893
+      ElaraIdle_24: -3256307376003752776
+      ElaraIdle_25: 7967766832025724812
+      ElaraIdle_26: 3081640237288785736
+      ElaraIdle_27: 349708454317134243
+      ElaraIdle_28: 3710779217173809268
+      ElaraIdle_29: 2355252707728392160
+      ElaraIdle_3: 8937473283425280998
+      ElaraIdle_30: 7781594546068519103
+      ElaraIdle_31: -2695370531660455575
+      ElaraIdle_32: -2630869466324917534
+      ElaraIdle_33: -8637719327548559287
+      ElaraIdle_34: -2716340720690874326
+      ElaraIdle_35: -2636599541031360273
+      ElaraIdle_4: 7186742486095951857
+      ElaraIdle_5: -2128289356413468789
+      ElaraIdle_6: 8969002675078719060
+      ElaraIdle_7: -2982406022496494511
+      ElaraIdle_8: 7923171496009022441
+      ElaraIdle_9: 6393787904934404678
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
