@@ -111,9 +111,25 @@ public class GameManager : MonoBehaviour {
         if (AudioManager.instance != null)
         {
             AudioManager.instance.StopSound("GameTheme");
+            AudioManager.instance.StopSound("CreditsTheme");
+
             AudioManager.instance.PlaySound("MenuTheme");
         }
 
         SceneManager.LoadScene(1);
+    }
+
+    // Función para el botón "Ver Créditos" o "Continuar" en la UI de Victoria
+    public void GoToCredits()
+    {
+        Time.timeScale = 1f;
+
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.StopSound("GameTheme");
+            AudioManager.instance.PlaySound("CreditsTheme");
+        }
+
+        UnityEngine.SceneManagement.SceneManager.LoadScene("CreditsScene");
     }
 }

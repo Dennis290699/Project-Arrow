@@ -30,6 +30,8 @@ public class SceneManagement : MonoBehaviour {
         if (AudioManager.instance != null)
         {
             AudioManager.instance.StopSound("GameTheme");
+            AudioManager.instance.StopSound("CreditsTheme");
+
             AudioManager.instance.PlaySound("MenuTheme");
         }
 
@@ -44,5 +46,23 @@ public class SceneManagement : MonoBehaviour {
     public void HomeScreen() {
         PlayClickSound();
         SceneManager.LoadScene("MainMenu");
+    }
+
+    public void OpenCreditsPanel()
+    {
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.StopSound("MenuTheme");
+            AudioManager.instance.PlaySound("CreditsTheme");
+        }
+    }
+
+    public void CloseCreditsPanel()
+    {
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.StopSound("CreditsTheme");
+            AudioManager.instance.PlaySound("MenuTheme");
+        }
     }
 }

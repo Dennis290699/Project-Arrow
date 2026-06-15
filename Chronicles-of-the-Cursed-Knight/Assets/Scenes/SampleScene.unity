@@ -9555,6 +9555,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 862591931}
     m_Modifications:
+    - target: {fileID: 1729102646169106342, guid: 2198b94b2da7da940a14b26dd4d33cad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729102646169106342, guid: 2198b94b2da7da940a14b26dd4d33cad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729102646169106342, guid: 2198b94b2da7da940a14b26dd4d33cad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6089595467153651984, guid: 659059bd4a3860c4bb3865887d33c998, type: 3}
+    - target: {fileID: 1729102646169106342, guid: 2198b94b2da7da940a14b26dd4d33cad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729102646169106342, guid: 2198b94b2da7da940a14b26dd4d33cad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoToCredits
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729102646169106342, guid: 2198b94b2da7da940a14b26dd4d33cad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729102646169106342, guid: 2198b94b2da7da940a14b26dd4d33cad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2026320207474050735, guid: 2198b94b2da7da940a14b26dd4d33cad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

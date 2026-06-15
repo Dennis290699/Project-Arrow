@@ -222,8 +222,13 @@ private void OnTriggerEnter2D(Collider2D coll) {
             TakeDamage(1);
         }
 
-        if (coll.gameObject.CompareTag("Chest")) {
+        if (coll.gameObject.CompareTag("Chest"))
+        {
             isVictory = true;
+            if (GameManager.instance != null)
+            {
+                GameManager.instance.TriggerVictoryUI();
+            }
         }
 
         if (coll.gameObject.CompareTag("Heart")) {
