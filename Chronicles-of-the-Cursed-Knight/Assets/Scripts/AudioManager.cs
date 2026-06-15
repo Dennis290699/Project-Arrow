@@ -23,7 +23,7 @@ public class AudioManager : MonoBehaviour {
             s.source.loop = s.loop;
             s.source.volume = s.volume;
         }
-        //PlaySound("Theme");
+        PlaySound("MenuTheme");
     }
 
     public void PlaySound(string name) {
