@@ -29,12 +29,19 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    private void Start() {
+    private void Start()
+    {
         key = 0;
 
         // Escondemos los menús moviéndolos hacia abajo (-1200) al iniciar
         if (gameOverUIBG != null) gameOverUIBG.transform.localPosition = new Vector3(0f, -1200f, 0f);
         if (pauseUIBG != null) pauseUIBG.transform.localPosition = new Vector3(0f, -1200f, 0f);
+
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.StopSound("MenuTheme"); // Apaga la del menú
+            AudioManager.instance.PlaySound("GameTheme"); // Enciende la del juego
+        }
     }
 
     private void Update() {
@@ -96,8 +103,17 @@ public class GameManager : MonoBehaviour {
     }
 
     // Función para el botón "Menu"
-    public void GoToMenu() {
+    public void GoToMenu()
+    {
         Time.timeScale = 1f; // Descongelar antes de cambiar de escena
-        SceneManager.LoadScene(1); 
+
+        // ¡NUEVO: Apagamos la música de gameplay antes de salir!
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.StopSound("GameTheme");
+            AudioManager.instance.PlaySound("MenuTheme");
+        }
+
+        SceneManager.LoadScene(1);
     }
 }

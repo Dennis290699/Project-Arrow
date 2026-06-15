@@ -578,16 +578,32 @@ PrefabInstance:
       value: GameTheme
       objectReference: {fileID: 0}
     - target: {fileID: 1840150857682620714, guid: 82950489408374548bcf585514907a3f, type: 3}
+      propertyPath: sounds.Array.data[0].volume
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840150857682620714, guid: 82950489408374548bcf585514907a3f, type: 3}
+      propertyPath: sounds.Array.data[1].volume
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840150857682620714, guid: 82950489408374548bcf585514907a3f, type: 3}
+      propertyPath: sounds.Array.data[2].volume
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840150857682620714, guid: 82950489408374548bcf585514907a3f, type: 3}
+      propertyPath: sounds.Array.data[3].volume
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840150857682620714, guid: 82950489408374548bcf585514907a3f, type: 3}
       propertyPath: sounds.Array.data[4].volume
-      value: 0.211
+      value: 0.185
       objectReference: {fileID: 0}
     - target: {fileID: 1840150857682620714, guid: 82950489408374548bcf585514907a3f, type: 3}
       propertyPath: sounds.Array.data[5].volume
-      value: 0.28
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 1840150857682620714, guid: 82950489408374548bcf585514907a3f, type: 3}
       propertyPath: sounds.Array.data[6].volume
-      value: 0.28
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 5630404729995315145, guid: 82950489408374548bcf585514907a3f, type: 3}
       propertyPath: m_LocalPosition.x

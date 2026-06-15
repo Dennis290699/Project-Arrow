@@ -26,6 +26,13 @@ public class SceneManagement : MonoBehaviour {
 
     public void Menu() {
         PlayClickSound();
+
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.StopSound("GameTheme");
+            AudioManager.instance.PlaySound("MenuTheme");
+        }
+
         SceneManager.LoadScene("Menu");
     }
 
