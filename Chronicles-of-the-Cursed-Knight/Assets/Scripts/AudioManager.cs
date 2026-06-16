@@ -40,6 +40,7 @@ public class AudioManager : MonoBehaviour
             if (s.name == name)
             {
                 s.source.Play();
+                return;
             }
         }
     }
@@ -51,7 +52,6 @@ public class AudioManager : MonoBehaviour
             if (s.name == name)
             {
                 s.source.Stop();
-                return;
             }
         }
     }

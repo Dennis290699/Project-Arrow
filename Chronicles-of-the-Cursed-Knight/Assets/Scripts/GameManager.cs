@@ -55,8 +55,15 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    public void TriggerGameOverUI() {
-        AudioManager.instance.PlaySound("Game Over");
+    public void TriggerGameOverUI()
+    {
+        // Apagamos la música de fondo en el instante que morimos
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.StopSound("GameTheme");
+            AudioManager.instance.PlaySound("Game Over");
+        }
+
         gameOverUIBG.LeanMoveLocalY(0f, .8f).setEaseOutBounce();
     }
 
@@ -112,6 +119,7 @@ public class GameManager : MonoBehaviour {
         {
             AudioManager.instance.StopSound("GameTheme");
             AudioManager.instance.StopSound("CreditsTheme");
+            AudioManager.instance.StopSound("Game Over");
 
             AudioManager.instance.PlaySound("MenuTheme");
         }

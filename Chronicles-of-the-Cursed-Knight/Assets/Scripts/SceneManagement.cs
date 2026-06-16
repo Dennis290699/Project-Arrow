@@ -21,6 +21,10 @@ public class SceneManagement : MonoBehaviour {
 
     public void Retry() {
         PlayClickSound();
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.StopSound("Game Over");
+        }
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -31,6 +35,7 @@ public class SceneManagement : MonoBehaviour {
         {
             AudioManager.instance.StopSound("GameTheme");
             AudioManager.instance.StopSound("CreditsTheme");
+            AudioManager.instance.StopSound("Game Over");
 
             AudioManager.instance.PlaySound("MenuTheme");
         }
@@ -43,8 +48,18 @@ public class SceneManagement : MonoBehaviour {
         Application.Quit();
     }
 
-    public void HomeScreen() {
+    public void HomeScreen()
+    {
         PlayClickSound();
+
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.StopSound("GameTheme");
+            AudioManager.instance.StopSound("Game Over");
+            AudioManager.instance.StopSound("CreditsTheme");
+            AudioManager.instance.PlaySound("MenuTheme");
+        }
+
         SceneManager.LoadScene("MainMenu");
     }
 

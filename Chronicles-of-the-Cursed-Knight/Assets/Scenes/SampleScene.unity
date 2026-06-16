@@ -16693,10 +16693,14 @@ PrefabInstance:
     - target: {fileID: 2026320207474050735, guid: ba1dc1c0d82992347a528c203ff0e1a9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 140125145}
+      objectReference: {fileID: 1634371205}
     - target: {fileID: 2026320207474050735, guid: ba1dc1c0d82992347a528c203ff0e1a9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Menu
+      value: GoToMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 2026320207474050735, guid: ba1dc1c0d82992347a528c203ff0e1a9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2934043231196172323, guid: ba1dc1c0d82992347a528c203ff0e1a9, type: 3}
       propertyPath: m_Pivot.x
