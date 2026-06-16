@@ -39,7 +39,10 @@ public class AudioManager : MonoBehaviour
         {
             if (s.name == name)
             {
-                s.source.Play();
+                if (!s.source.isPlaying)
+                {
+                    s.source.Play();
+                }
                 return;
             }
         }

@@ -551,7 +551,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1840150857682620714, guid: 82950489408374548bcf585514907a3f, type: 3}
       propertyPath: sounds.Array.size
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1840150857682620714, guid: 82950489408374548bcf585514907a3f, type: 3}
       propertyPath: sounds.Array.data[5].clip
@@ -602,6 +602,18 @@ PrefabInstance:
       value: CreditsTheme
       objectReference: {fileID: 0}
     - target: {fileID: 1840150857682620714, guid: 82950489408374548bcf585514907a3f, type: 3}
+      propertyPath: sounds.Array.data[9].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 17cf36eb697023743b3c6cbd9980d23a, type: 3}
+    - target: {fileID: 1840150857682620714, guid: 82950489408374548bcf585514907a3f, type: 3}
+      propertyPath: sounds.Array.data[9].loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840150857682620714, guid: 82950489408374548bcf585514907a3f, type: 3}
+      propertyPath: sounds.Array.data[9].name
+      value: Game Over
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840150857682620714, guid: 82950489408374548bcf585514907a3f, type: 3}
       propertyPath: sounds.Array.data[0].volume
       value: 0
       objectReference: {fileID: 0}
@@ -635,6 +647,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1840150857682620714, guid: 82950489408374548bcf585514907a3f, type: 3}
       propertyPath: sounds.Array.data[8].volume
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840150857682620714, guid: 82950489408374548bcf585514907a3f, type: 3}
+      propertyPath: sounds.Array.data[9].volume
       value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 5630404729995315145, guid: 82950489408374548bcf585514907a3f, type: 3}
