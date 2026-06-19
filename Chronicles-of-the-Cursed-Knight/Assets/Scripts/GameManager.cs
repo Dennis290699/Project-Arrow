@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement; // Necesario para el botón de ir al menú
 
-public class GameManager : MonoBehaviour {
-
+public class GameManager : MonoBehaviour
+{
     public static GameManager instance;
 
     [Header("Game Over UI")]
@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour {
     [SerializeField] private GameObject victoryUIBG;
 
     [Header("Pause UI")]
-    [SerializeField] private GameObject pauseUIBG; 
+    [SerializeField] private GameObject pauseUIBG;
 
     public int key;
 
@@ -20,11 +20,14 @@ public class GameManager : MonoBehaviour {
     private bool isPaused = false;
     private bool isTransitioning = false; // Evita que se rompa si pulsas 'P' muy rápido
 
-    private void Awake() {
-        if (instance == null) {
+    private void Awake()
+    {
+        if (instance == null)
+        {
             instance = this;
         }
-        else {
+        else
+        {
             Destroy(this);
         }
     }
@@ -44,20 +47,42 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    private void Update() {
+    private void Update()
+    {
         // Detectar tecla 'P' para pausar/reanudar
-        if (Input.GetKeyDown(KeyCode.P) && !isTransitioning) {
-            if (isPaused) {
+        if (Input.GetKeyDown(KeyCode.P) && !isTransitioning)
+        {
+            if (isPaused)
+            {
                 ResumeGame();
-            } else {
+            }
+            else
+            {
                 PauseGame();
             }
         }
+
+#if UNITY_EDITOR
+        // Atajo de desarrollador: F4 para forzar la victoria instantánea
+        if (Input.GetKeyDown(KeyCode.F4))
+        {
+            Debug.Log("¡Truco activado: Victoria instantánea!");
+            
+            // Desactiva la pausa si el juego estaba pausado antes de ganar
+            if (isPaused)
+            {
+                ResumeGame(); 
+            }
+
+            // Llamamos a la función que muestra la pantalla de victoria
+            TriggerVictoryUI();
+        }
+#endif
     }
 
     public void TriggerGameOverUI()
     {
-        // Apagamos la música de fondo en el instante que morimos
+        // Apagamos la música de fondo en el instante que morimos y reproducimos Game Over
         if (AudioManager.instance != null)
         {
             AudioManager.instance.StopSound("GameTheme");
@@ -67,31 +92,43 @@ public class GameManager : MonoBehaviour {
         gameOverUIBG.LeanMoveLocalY(0f, .8f).setEaseOutBounce();
     }
 
-    public void TriggerVictoryUI() {
+    public void TriggerVictoryUI()
+    {
+        // Apagamos la música de fondo y reproducimos el sonido de victoria
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.StopSound("GameTheme");
+            AudioManager.instance.PlaySound("victory");
+        }
+
         victoryUIBG.LeanMoveLocalY(0f, .8f).setEaseInOutBack();
     }
 
     // --- LÓGICA DE PAUSA ---
 
-    public void PauseGame() {
+    public void PauseGame()
+    {
         isPaused = true;
         isTransitioning = true;
-        
-        if (pauseUIBG != null) {
+
+        if (pauseUIBG != null)
+        {
             // Sube el BG al centro de la pantalla, ignorando que el tiempo se va a detener
             pauseUIBG.LeanMoveLocalY(0f, 0.6f)
                 .setIgnoreTimeScale(true)
                 .setEaseOutBounce()
                 .setOnComplete(() => isTransitioning = false);
         }
-        
+
         Time.timeScale = 0f; // Congela el juego
     }
 
-    public void ResumeGame() {
+    public void ResumeGame()
+    {
         isTransitioning = true;
-        
-        if (pauseUIBG != null) {
+
+        if (pauseUIBG != null)
+        {
             // Baja el BG de vuelta a -1200
             pauseUIBG.LeanMoveLocalY(-1200f, 0.5f)
                 .setIgnoreTimeScale(true)
@@ -100,9 +137,11 @@ public class GameManager : MonoBehaviour {
                     // Solo cuando termina la animación, reactivamos el juego
                     isPaused = false;
                     isTransitioning = false;
-                    Time.timeScale = 1f; 
+                    Time.timeScale = 1f;
                 });
-        } else {
+        }
+        else
+        {
             isPaused = false;
             isTransitioning = false;
             Time.timeScale = 1f;

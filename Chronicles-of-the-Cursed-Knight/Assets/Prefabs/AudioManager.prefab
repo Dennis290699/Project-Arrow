@@ -105,3 +105,9 @@ MonoBehaviour:
     loop: 0
     mixerGroup: {fileID: -897932296530677234, guid: ae0a8bae75d7bcf47ac30973794a193f, type: 2}
     source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 1249fad1c1c91584aaa54c9e4b051e74, type: 3}
+    name: victory
+    volume: 0.35
+    loop: 0
+    mixerGroup: {fileID: -897932296530677234, guid: ae0a8bae75d7bcf47ac30973794a193f, type: 2}
+    source: {fileID: 0}
