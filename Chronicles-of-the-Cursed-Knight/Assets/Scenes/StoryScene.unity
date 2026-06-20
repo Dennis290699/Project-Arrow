@@ -369,7 +369,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 58.60742, y: -16}
+  m_AnchoredPosition: {x: 58.60742, y: -200}
   m_SizeDelta: {x: 742.671, y: 412.9202}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &358494383
@@ -392,13 +392,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Thanks to Sanesh Kethmin, Tex, Roald City, Kneth
-
-
-    Special thanks
-    to
-
-    DumbClipsOnTheInternet'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -425,8 +419,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -478,6 +472,198 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 358494381}
   m_CullTransparentMesh: 1
+--- !u!1 &1300287686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1300287689}
+  - component: {fileID: 1300287688}
+  - component: {fileID: 1300287687}
+  m_Layer: 0
+  m_Name: VideoManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1300287687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300287686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299c38ac342c8c2488f1ea42c25c63db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StoryManager
+  videoPlayer: {fileID: 1300287688}
+  storyTextComponent: {fileID: 358494383}
+  fadeCanvasGroup: {fileID: 1380164329}
+  videoClips:
+  - {fileID: 32900000, guid: 25e8e5c5d100c524ba8b1caee4543180, type: 3}
+  - {fileID: 32900000, guid: 69d697de383f3f049a759df28048359c, type: 3}
+  - {fileID: 32900000, guid: d84fff1fa364b4c4b858aa72588983c5, type: 3}
+  - {fileID: 32900000, guid: 750b3bd8cb6a6094099769ed78ddaa20, type: 3}
+  - {fileID: 32900000, guid: 7d1f9a0dd08bc7041bc0b279454c527b, type: 3}
+  storyTexts:
+  - El reino de Valteria no simplemente cayo; fue devorado por la catastrofe. En
+    medio de las cenizas, un caballero fue condenado a cargar con la culpa.
+  - Desterrado y maldecido... su viaje comenzo en el mas absoluto silencio, vagando
+    por un mundo que ya no reconocia.
+  - 'Pero entre la devastacion que juro evitar, un eco familiar rompio la oscuridad.
+    Una luz entre las sombras: la esencia inconfundible de Elara.'
+  - Una vision entre la bruma que disipo la mentira. Ella le revelo la verdad oculta
+    tras el caos, devolviendole el destino que le habian arrebatado.
+  - Con el arco tenso y una promesa inquebrantable en el alma, el arquero maldito
+    abraza su nuevo proposito.
+  typingSpeed: 0.05
+  fadeDuration: 1
+  nextSceneName: SampleScene
+--- !u!328 &1300287688
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300287686}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 0}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 90604457}
+  m_TargetTexture: {fileID: 0}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: <noninit>
+  m_RenderMode: 1
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_TimeUpdateMode: 2
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 2
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: 
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
+--- !u!4 &1300287689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300287686}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1380164328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1380164332}
+  - component: {fileID: 1380164331}
+  - component: {fileID: 1380164330}
+  - component: {fileID: 1380164329}
+  m_Layer: 5
+  m_Name: FadeScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!225 &1380164329
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380164328}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &1380164330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380164328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1380164331
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380164328}
+  m_CullTransparentMesh: 1
+--- !u!224 &1380164332
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380164328}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1578713291}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1450053953
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,6 +765,7 @@ GameObject:
   - component: {fileID: 1578713290}
   - component: {fileID: 1578713289}
   - component: {fileID: 1578713288}
+  - component: {fileID: 1578713292}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -663,6 +850,7 @@ RectTransform:
   m_Children:
   - {fileID: 1962364084}
   - {fileID: 1450053954}
+  - {fileID: 1380164332}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -670,6 +858,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!225 &1578713292
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578713287}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1962364083
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,7 +887,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1962364084
 RectTransform:
   m_ObjectHideFlags: 0
@@ -761,7 +961,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2106387949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -774,18 +974,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299c38ac342c8c2488f1ea42c25c63db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StoryManager
+  videoPlayer: {fileID: 0}
   storyTextComponent: {fileID: 358494383}
-  storyCanvasGroup: {fileID: 1450053955}
-  fullStoryText: 'Thanks to Sanesh Kethmin, Tex, Roald City, Kneth
-
-
-    Special
-    thanks to
-
-    DumbClipsOnTheInternet'
+  fadeCanvasGroup: {fileID: 0}
+  videoClips: []
+  storyTexts: []
   typingSpeed: 0.05
   fadeDuration: 0.8
-  delayAfterStory: 2
+  nextSceneName: SampleScene
 --- !u!4 &2106387950
 Transform:
   m_ObjectHideFlags: 0
@@ -809,3 +1005,4 @@ SceneRoots:
   - {fileID: 1578713291}
   - {fileID: 248234649}
   - {fileID: 2106387950}
+  - {fileID: 1300287689}
