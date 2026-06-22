@@ -1,90 +1,171 @@
 using UnityEngine;
+using UnityEngine.Video;
 using UnityEngine.SceneManagement;
 using TMPro;
 using System.Collections;
-using DentedPixel; // LeanTween
 
 public class StoryManager : MonoBehaviour
 {
-    [Header("Referencias de UI")]
+    [Header("Referencias Principales")]
+    public VideoPlayer videoPlayer;
     public TextMeshProUGUI storyTextComponent;
-    public CanvasGroup storyCanvasGroup;
+    public CanvasGroup fadeCanvasGroup;
 
-    [Header("Configuración de Historia")]
-    [TextArea(3, 10)]
-    public string fullStoryText;
+    [Header("Configuración de Audio")]
+    [Tooltip("Nombre del objeto que trae la música desde el menú")]
+    public string menuMusicObjectName = "AudioManager";
+    [Tooltip("Arrastra aquí el AudioSource si quieres poner música nueva para la historia")]
+    public AudioSource cinematicMusic;
+
+    [Header("Contenido (Videos y Textos)")]
+    public VideoClip[] videoClips;
+    [TextArea(3, 5)]
+    public string[] storyTexts;
+
+    [Header("Configuración de Tiempos")]
     public float typingSpeed = 0.05f;
+    public float fadeDuration = 1.0f;
+    public string nextSceneName = "SampleScene";
 
-    [Header("Configuración de Transiciones")]
-    public float fadeDuration = 0.8f;
-    public float delayAfterStory = 2.0f;
-
+    private int currentIndex = 0;
     private bool isTyping = false;
-    private bool isStoryFinished = false;
+    private bool isEnding = false;
+    private bool isTransitioning = false;
+    private Coroutine typingCoroutine;
 
     void Start()
     {
-        // 1. Empezamos con la pantalla totalmente negra/transparente y el texto vacío
-        storyCanvasGroup.alpha = 0f;
-        storyTextComponent.text = "";
-        
-        // 2. Iniciamos la cinemática
-        StartCoroutine(PlayStoryRoutine());
+        AudioManager[] audioManagersInvasores = FindObjectsOfType<AudioManager>();
+
+        foreach (AudioManager manager in audioManagersInvasores)
+        {
+            AudioSource[] todosLosAudios = manager.GetComponentsInChildren<AudioSource>();
+            foreach (AudioSource audio in todosLosAudios)
+            {
+                audio.Stop();
+            }
+
+            Destroy(manager.gameObject);
+        }
+
+        if (cinematicMusic != null) cinematicMusic.Play();
+
+        if (videoClips.Length > 0)
+        {
+            videoPlayer.loopPointReached += OnVideoEnded;
+
+            if (fadeCanvasGroup != null) fadeCanvasGroup.alpha = 1f;
+            StartCoroutine(TransitionToNextSlide(true));
+        }
     }
 
     void Update()
     {
-        // Sistema de "Skip" (Saltar) con Espacio, Enter o Clic izquierdo
+        if (isEnding || isTransitioning) return;
+
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0))
         {
             if (isTyping)
             {
-                // Si el texto se está escribiendo, lo autocompletamos de golpe
-                StopAllCoroutines(); 
-                storyTextComponent.text = fullStoryText;
+                if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+                storyTextComponent.text = storyTexts[currentIndex];
                 isTyping = false;
-                StartCoroutine(EndStoryRoutine());
             }
-            else if (isStoryFinished)
+            else
             {
-                // Si ya terminó de escribirse y está en la pausa final, saltamos al juego
-                StopAllCoroutines();
-                SceneManager.LoadScene("SampleScene");
+                NextSlide();
             }
         }
     }
 
-    private IEnumerator PlayStoryRoutine()
+    void OnVideoEnded(VideoPlayer vp)
     {
-        // Fade In suave
-        LeanTween.alphaCanvas(storyCanvasGroup, 1f, fadeDuration).setEase(LeanTweenType.easeOutQuad);
-        yield return new WaitForSeconds(fadeDuration);
+        NextSlide();
+    }
 
-        // Efecto Máquina de Escribir
+    void NextSlide()
+    {
+        if (isEnding || isTransitioning) return;
+
+        currentIndex++;
+
+        if (currentIndex < videoClips.Length)
+        {
+            StartCoroutine(TransitionToNextSlide(false));
+        }
+        else
+        {
+            StartFinalFade();
+        }
+    }
+
+    private IEnumerator TransitionToNextSlide(bool isFirstVideo)
+    {
+        isTransitioning = true;
+        if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+
+        if (!isFirstVideo && fadeCanvasGroup != null)
+        {
+            LeanTween.alphaCanvas(fadeCanvasGroup, 1f, fadeDuration / 2f).setEase(LeanTweenType.easeInQuad);
+            yield return new WaitForSeconds(fadeDuration / 2f);
+        }
+
+        videoPlayer.clip = videoClips[currentIndex];
+        storyTextComponent.text = "";
+
+        videoPlayer.Prepare();
+
+        while (!videoPlayer.isPrepared)
+        {
+            yield return null;
+        }
+
+        videoPlayer.Play();
+
+        if (fadeCanvasGroup != null)
+        {
+            LeanTween.alphaCanvas(fadeCanvasGroup, 0f, fadeDuration / 2f).setEase(LeanTweenType.easeOutQuad);
+            yield return new WaitForSeconds(fadeDuration / 2f);
+        }
+
+        if (currentIndex < storyTexts.Length)
+        {
+            typingCoroutine = StartCoroutine(TypewriterEffect(storyTexts[currentIndex]));
+        }
+
+        isTransitioning = false;
+    }
+
+    private IEnumerator TypewriterEffect(string textToType)
+    {
         isTyping = true;
-        foreach (char c in fullStoryText)
+        storyTextComponent.text = "";
+
+        foreach (char c in textToType)
         {
             storyTextComponent.text += c;
             yield return new WaitForSeconds(typingSpeed);
         }
-        isTyping = false;
 
-        // Iniciar la salida
-        StartCoroutine(EndStoryRoutine());
+        isTyping = false;
     }
 
-    private IEnumerator EndStoryRoutine()
+    void StartFinalFade()
     {
-        isStoryFinished = true;
-        
-        // Pausa para que el jugador lea el texto completo
-        yield return new WaitForSeconds(delayAfterStory);
+        isEnding = true;
+        if (typingCoroutine != null) StopCoroutine(typingCoroutine);
 
-        // Fade Out suave
-        LeanTween.alphaCanvas(storyCanvasGroup, 0f, fadeDuration).setEase(LeanTweenType.easeInQuad);
-        yield return new WaitForSeconds(fadeDuration);
-
-        // Cargar el nivel
-        SceneManager.LoadScene("SampleScene");
+        if (fadeCanvasGroup != null)
+        {
+            LeanTween.alphaCanvas(fadeCanvasGroup, 1f, fadeDuration)
+                .setEase(LeanTweenType.easeInQuad)
+                .setOnComplete(() => {
+                    SceneManager.LoadScene(nextSceneName);
+                });
+        }
+        else
+        {
+            SceneManager.LoadScene(nextSceneName);
+        }
     }
 }

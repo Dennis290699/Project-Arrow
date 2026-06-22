@@ -21,11 +21,25 @@ public class SceneManagement : MonoBehaviour {
 
     public void Retry() {
         PlayClickSound();
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.StopSound("Game Over");
+        }
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void Menu() {
         PlayClickSound();
+
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.StopSound("GameTheme");
+            AudioManager.instance.StopSound("CreditsTheme");
+            AudioManager.instance.StopSound("Game Over");
+
+            AudioManager.instance.PlaySound("MenuTheme");
+        }
+
         SceneManager.LoadScene("Menu");
     }
 
@@ -34,8 +48,36 @@ public class SceneManagement : MonoBehaviour {
         Application.Quit();
     }
 
-    public void HomeScreen() {
+    public void HomeScreen()
+    {
         PlayClickSound();
+
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.StopSound("GameTheme");
+            AudioManager.instance.StopSound("Game Over");
+            AudioManager.instance.StopSound("CreditsTheme");
+            AudioManager.instance.PlaySound("MenuTheme");
+        }
+
         SceneManager.LoadScene("MainMenu");
+    }
+
+    public void OpenCreditsPanel()
+    {
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.StopSound("MenuTheme");
+            AudioManager.instance.PlaySound("CreditsTheme");
+        }
+    }
+
+    public void CloseCreditsPanel()
+    {
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.StopSound("CreditsTheme");
+            AudioManager.instance.PlaySound("MenuTheme");
+        }
     }
 }

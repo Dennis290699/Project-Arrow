@@ -24,7 +24,7 @@ public class SceneTransition : MonoBehaviour
             
             // Animación de LeanTween para desvanecer el negro
             // AÑADIDO: .setDelay(0.5f) para darle tiempo al video de cargar sin que el jugador lo note
-            LeanTween.alpha(fadeOverlay.rectTransform, 0f, fadeDuration).setDelay(1.0f).setOnComplete(() => 
+            LeanTween.alpha(fadeOverlay.rectTransform, 0f, fadeDuration).setDelay(1.0f).setIgnoreTimeScale(true).setOnComplete(() => 
             {
                 // Desactivamos la imagen para que no bloquee tus clics en los botones
                 fadeOverlay.gameObject.SetActive(false); 
@@ -51,13 +51,16 @@ public class SceneTransition : MonoBehaviour
         {
             isTransitioning = true;
             fadeOverlay.gameObject.SetActive(true);
-            
+
             // Animación de LeanTween para oscurecer la pantalla
-            LeanTween.alpha(fadeOverlay.rectTransform, 1f, fadeDuration).setOnComplete(() => 
-            {
-                // Una vez que está todo negro, cargamos la siguiente escena
-                SceneManager.LoadScene(sceneIndex);
-            });
+            // AÑADIDO: setIgnoreTimeScale(true) para evitar cuelgues al salir
+            LeanTween.alpha(fadeOverlay.rectTransform, 1f, fadeDuration)
+                .setIgnoreTimeScale(true)
+                .setOnComplete(() =>
+                {
+                    // Una vez que está todo negro, cargamos la siguiente escena
+                    SceneManager.LoadScene(sceneIndex);
+                });
         }
     }
 }

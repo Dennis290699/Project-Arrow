@@ -7,7 +7,7 @@ public class CheckpointElara : MonoBehaviour
 
     [Header("Efecto de Sonido")]
     [Tooltip("Nombre de la pista de audio en el AudioManager")]
-    public string activationSound = "checkpoint.wav"; 
+    public string activationSound = "checkpoint"; 
 
     void Start()
     {

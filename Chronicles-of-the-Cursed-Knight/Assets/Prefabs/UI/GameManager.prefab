@@ -46,4 +46,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverUIBG: {fileID: 0}
   victoryUIBG: {fileID: 0}
+  pauseUIBG: {fileID: 0}
   key: 0
